@@ -75,7 +75,7 @@
      <revisionDesc>
         <change when="2019-07-14" who="#ebb">Moved commentary on the date into a note element in the sourceDesc, and updated date representation in the titleStmt.</change>
         <change when="2015-10-14" who="#lmw">Updated header and tags.</change>
-        <change when="2015-09-29" who="#lmw">Proofed text and header from MS</change>
+        <change when="2015-09-29" who="#lmw">Proofed text and header from MS.</change>
      </revisionDesc>
   </teiHeader>
   <text>
@@ -85,7 +85,7 @@
             <opener> 
                <dateline>
                   <placeName ref="#Bertram_house">Bertram House</placeName> 
-                  <date when="1819-04-19">Monday.</date>. 
+                  <date when="1819-04-19">Monday</date>. 
                   <add><handShift resp="pencil"/><date when="1819-04">[April, 1819]</date></add>
                </dateline>
             </opener>
