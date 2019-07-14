@@ -118,7 +118,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <p>Your kind letter gave all the pleasure that your good nature could desire--It is a
                great comfort to know that my trifles have, some of them at least, a chance of being
                accepted, &amp; it is no less a one that <rs type="title" ref="#Fiesco_MRMplay">my
-                  Tragedy</rs> is not yet rejected. I enclose a good for nothing essay for <persName ref="#Colburn">Mr Colburn</persName>.<!--scw: 6/12/17: Thought I'd identified this "good for nothing" but can't be certain. Journal mentions she's working on an Essay on Letters (I do not know what this is), and an Essay on Thomas May (confirmed published). Both are possible, though Essay on Thomas May could have been sent to Talfourd earlier in March, since she mentions it in Journal before a large packet of stuff sent to Talfourd on 16 March. So likely not part of this letter. --> I have nearly finished another little Drama for
+                  Tragedy</rs> is not yet rejected. I enclose a good for nothing essay for <persName ref="#Colburn">Mr Colburn</persName>.<note resp="#scw #ebb">Mitford mentions around this time in her Journal of 1819-1823 that she is working on an <title level="a">Essay on Letters</title>, and an <title level="a">Essay on Thomas May</title>, either of which might be what she is referring to here. The Essay on Thomas May was published as <bibl><title level="a">On the Comedies of Thomas May</title>, <title level="j">New Monthly Magazine</title>: <biblScope unit="series" n="NS_2">NS 2</biblScope>, <date when="1821">1821</date> <biblScope unit="page" n="70">70</biblScope>.</bibl> <!--scw: 6/12/17: Thought I'd identified this "good for nothing" but can't be certain. Journal mentions she's working on an Essay on Letters (I do not know what this is), and an Essay on Thomas May (confirmed published). Both are possible, though Essay on Thomas May could have been sent to Talfourd earlier in March, since she mentions it in Journal before a large packet of stuff sent to Talfourd on 16 March. So likely not part of this letter. --></note> I have nearly finished another little Drama for
                   <persName ref="#Baldwin_R">Mr Baldwin</persName>--You will wonder at my loading
                you with so many of these slight Sketches, but I wish to accumulate a little stock of
                them that if a series should be inserted in the <rs type="title" ref="#LondonMag">Magazine</rs> I may not be interrupted when I begin another Tragedy,<note resp="#scw">The tragedy that <persName ref="#MRM">Mitford</persName> subsequently
@@ -409,9 +409,14 @@ their holiday. Is it not abominable? a worse inequity than beating <persName ref
                 <biblScope unit="volume" n="2">vol. 2 of 2</biblScope>.
                 
              </bibl>
+             <bibl><author ref="#MRM">Mary Russell Mitford</author><title level="a">On the Comedies of Thomas May</title>
+                <title level="j">New Monthly Magazine</title>
+                <biblScope unit="series" n="NS_2">NS 2</biblScope>
+                <date when="1821">1821</date>
+                <biblScope unit="page" n="70">70</biblScope>
+                <note resp="#ebb">Source: <ref target="http://spenserians.cath.vt.edu"/></note>
+             </bibl>
           </listBibl>
-           
-           
      </div>
      </back>
   </text>
