@@ -11,7 +11,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <titleStmt>
                 <title xml:id="MRM1817"><!-- When I looked up the xmlid of the letter, the "notes" column lists the words "Monday night". On the letter, this is "Wednesday night". Is this an error in the spreadsheet, or does this record other information?-->
                <!--LMW: we can double check with Greg!-->
-               Letter to <persName ref="#Haydon">B.R. Haydon, Esq.</persName>, <date when="1824-02-09">February 9th, 1824</date>
+               Letter to <persName ref="#Haydon">B.R. Haydon, Esq.</persName>, <date when="1824-02-09">February 9, 1824</date>
                 </title> 
             <author ref="#MRM">Mary Russell Mitford</author>
             <editor ref="#mjk">Melissa J. Klamer </editor> 
