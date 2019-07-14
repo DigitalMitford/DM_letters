@@ -8,7 +8,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="MRM2018">Letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName>, <date when="1819-04">19 April 1819</date></title> <!--alg: date discrepancy:  Needham note  indicates 19 April, 1819 "[For exact date, see Diary]"; first page indicates "Monday [April, 1819]." Confirm date. --> <!--lmw: April 19 was a Monday. -->
+            <title xml:id="MRM2018">Letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName>, <date when="1819-04">April [19], 1819</date></title>
             <author ref="#MRM">Mary Russell Mitford</author>
             <editor ref="#alg">Amy L. Gates</editor> 
             <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
@@ -19,11 +19,6 @@
             <respStmt>
                <resp>Transcription and coding by</resp>
                   <persName ref="#alg">Amy L. Gates</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Date last checked: <date when="2015-10-14">2015-10-14</date>
-                  Proofing and corrections by</resp>
-               <persName ref="#lmw">Lisa M. Wilson</persName><!--lmw:  Proofing text and header from ms.  2015-09-29. Updated header and tags, 2015-10-14-->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -44,8 +39,6 @@
          <seriesStmt>
             <title>Digital Mitford Letters: The Mary Russell Mitford Archive</title>
          </seriesStmt>
-         
-         
          <sourceDesc>
             <msDesc>
                <msIdentifier>
@@ -53,7 +46,7 @@
                   <collection>The letters of Mary Russell Mitford</collection>
                   <idno></idno><!--LMW/EBB: MRM 2014 has no shelfmark. From a collection of loose folders at Reading Central Library.-->
                </msIdentifier>
- <head>Letter from Mary Russell Mitford to Mary Webb, <date when="1819-04-19">1819 April 19</date>.</head> <!-- alg: This letter includes a note from Francis Needham which specifies 1819-04-09 and refers to Diary for specific date; the pencil note added on the first page of the letter specifies 1819-04; Mitford dates the letter "Monday."--> <!--lmw:  Needham note not transcribed. on photo # DSCF8928.JPG -->
+               <head>Letter from Mary Russell Mitford to Mary Webb, <date when="1819-04-19">1819 April 19</date>. <note resp="#alg #lmw">This letter includes a note from Francis Needham which specifies 1819-04-09 and refers to Diary for specific date; the pencil note added on the first page of the letter specifies 1819-04; Mitford dates the letter <q>Monday</q>. <!-- We have not (yet) transcribed Needham’s note, which is on photo # DSCF8928.JPG --> </note></head>
                <physDesc>
                <objectDesc>
                   <supportDesc> 
@@ -79,6 +72,11 @@
               <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
            </editorialDecl>
      </encodingDesc>
+     <revisionDesc>
+        <change when="2019-07-14" who="#ebb">Moved commentary on the date into a note element in the sourceDesc, and updated date representation in the titleStmt.</change>
+        <change when="2015-10-14" who="#lmw">Updated header and tags.</change>
+        <change when="2015-09-29" who="#lmw">Proofed text and header from MS</change>
+     </revisionDesc>
   </teiHeader>
   <text>
       <body>
