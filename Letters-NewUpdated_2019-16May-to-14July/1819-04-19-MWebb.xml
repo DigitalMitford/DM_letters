@@ -84,7 +84,7 @@
             <pb n="1" facs="DSCF8930.JPG"/>
             <opener> 
                <dateline>
-                  <name type="place"><placeName ref="#Bertram_house">Bertram House</placeName></name> 
+                  <placeName ref="#Bertram_house">Bertram House</placeName> 
                   <date when="1819-04-19">Monday.</date>. 
                   <add><handShift resp="pencil"/><date when="1819-04">[April, 1819]</date></add>
                </dateline>
