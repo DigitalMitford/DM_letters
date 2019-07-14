@@ -2,12 +2,12 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="http://ebeshero.github.io/MRMValidate.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="MRM2018">Letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName>, March 2, 2016</title><author ref="#MRM">Mary Russell Mitford</author>
+            <title xml:id="MRM2018">Letter to <persName ref="#Webb_Mary_younger">Mary Webb</persName>, March 2, 1819</title><author ref="#MRM">Mary Russell Mitford</author>
             <editor ref="#lmw">Lisa M. Wilson</editor>
                <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
             <sponsor>University of Pittsburgh at Greensburg</sponsor>
@@ -19,11 +19,6 @@
                <persName ref="#lmw">Lisa M. Wilson</persName>
                <persName ref="#rnes">Rebecca Nesvet</persName>
                <persName ref="#mc">Melinda Creech</persName>
-            </respStmt>
-            <respStmt>
-               <resp>Date last checked: <date when="2017-09-03">2017-09-03</date>
-                  Proofing and corrections by</resp>
-               <persName ref="#lmw">Lisa M. Wilson</persName><!--LMW 2017-09-03:  correcting tags and adding backlist to research. -->
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -53,7 +48,7 @@
                   <repository ref="#ReadingCL">Reading Central Library</repository>
                   <collection>The letters of Mary Russell Mitford, vol. 4, 1819-1823</collection>
                   <idno>qB/TU/MIT Horizon No. 1361552</idno></msIdentifier>
-               <head>Letter from Mary Russell Mitford to Mary Webb, <date when="1819-03-02">1819 March 8</date>.
+               <head>Letter from Mary Russell Mitford to Mary Webb, <date when="1819-03-02">1819 March 2</date>.
                   <note resp="#lmw">Date checked against contents of Mitford's journal. Letter headed "Tuesday," and journal indicates she wrote to Mary Webb on Tuesday, March 2, 1819.</note>
                </head> 
                <physDesc>
@@ -83,6 +78,10 @@
             <p>Mitford’s spelling and punctuation are retained, except where a word is split at the end of a line and the beginning of the next in the manuscript. Where Mitford’s spelling and hyphenation of words deviates from the standard, in order to facilitate searching we are using the TEI elements “choice," “sic," and “reg" to encode both Mitford’s spelling and the regular international standard of Oxford English spelling, following the first listed spelling in the Oxford English Dictionary. The long s and ligatured forms are not encoded.</p> 
          </editorialDecl>
       </encodingDesc>
+   <revisionDesc>
+      <change when="2019-07-14" who="#ebb">Repaired letter date in titleStmt so it no longer reads 2016, but instead indicates the proper year in which this letter was written (1819). Moved listPerson work in progress into the back element where it belongs and removed curly quotes from tags. Also, closed the ref elements in the back lists so these are well-formed.</change>
+      <change when="2017-09-03" who="#lmw">Corrected tags and added backlist to research.</change>
+   </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -117,85 +116,84 @@
             <persName ref="#Wilson">Wilson</persName> another servant (or pet?) of James Webb
             <placeName ref="#Overton">Overton</placeName> village near Reading
             -->
+         <listPerson>
+            <person xml:id="Hayward_Wm">
+               <persName>
+                  <surname><!-- William--></surname>
+                  <forename><!--Hayward --></forename>
+               </persName>
+               <persName><!--William Hayward--></persName>
+               <birth when=""><placeName><!-- --></placeName></birth>
+               <death when=""><placeName><!-- --></placeName></death>
+               <occupation>  </occupation>
+               <note resp="#BAL">The dedicatee of Mitford’s “Watlington Hill”. More research needed.</note>
+               <note>
+                  <ref target=""/>
+               </note>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="#William">
+               <persName>
+                  <surname><!-- --></surname>
+                  <forename><!--William --></forename>
+               </persName>
+               <persName><!-- --></persName>
+               <birth when=""><placeName><!-- --></placeName></birth>
+               <death when=""><placeName><!-- --></placeName></death>
+               <occupation> Unknown </occupation>
+               <note resp="#BAL"><!--More research needed. --></note>
+               <note>
+                  <ref target=""/>
+               </note>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="Pile_Mrs">
+               <persName>
+                  <surname><!-- Pile--></surname>
+                  <forename><!-- --></forename>
+               </persName>
+               <persName><!--Mrs. Pile--></persName>
+               <birth when=""><placeName><!-- --></placeName></birth>
+               <death when=""><placeName><!-- --></placeName></death>
+               <occupation>  </occupation>
+               <occupation>  </occupation>
+               <note resp="#BAL"><!-- More research needed --></note>
+               <note>
+                  <ref target=""/>
+               </note>
+            </person>
+         </listPerson>
+         <listPerson>
+            <person xml:id="">
+               <persName>
+                  <surname><!-- --></surname>
+                  <forename><!-- --></forename>
+               </persName>
+               <persName><!-- --></persName>
+               <birth when=""><placeName><!-- --></placeName></birth>
+               <death when=""><placeName><!-- --></placeName></death>
+               <occupation>  </occupation>
+               <occupation> </occupation>
+               <note resp="#BAL"><!-- More research needed --></note>
+               <note>
+                  <ref target=""/>
+               </note>
+            </person>
+         </listPerson>
+         <listPlace>
+            <place xml:id="Overton">
+               <placeName>Overton</placeName>
+               <placeName><!----></placeName>
+               <location><geo>
+               </geo></location>
+               <note resp="#BAL"><!--A village near Reading--></note>
+               <note>
+               </note>
+            </place>
+         </listPlace>
       </back>
-      <listPerson>
-         <person xml:id="Hayward_Wm">
-            <persName>
-               <surname><!-- William--></surname>
-               <forename><!--Hayward --></forename>
-            </persName>
-            <persName><!--William Hayward--></persName>
-            <birth when=""><placeName><!-- --></placeName></birth>
-            <death when=""><placeName><!-- --></placeName></death>
-            <occupation>  </occupation>
-            <note resp="#BAL"><!-- The dedicatee of Mitford’s “Watlington Hill”. More research needed.--></note>
-            <note>
-               <ref target="”>
-            </note>
-         </person>
-      </listPerson>
-      <listPerson>
-         <person xml:id="#William">
-            <persName>
-               <surname><!-- --></surname>
-               <forename><!--William --></forename>
-            </persName>
-            <persName><!-- --></persName>
-            <birth when=""><placeName><!-- --></placeName></birth>
-            <death when=""><placeName><!-- --></placeName></death>
-            <occupation> Unknown </occupation>
-            <note resp="#BAL"><!--More research needed. --></note>
-            <note>
-               <ref target="”>
-            </note>
-         </person>
-      </listPerson>
-      <listPerson>
-         <person xml:id="Pile_Mrs">
-            <persName>
-               <surname><!-- Pile--></surname>
-               <forename><!-- --></forename>
-            </persName>
-            <persName><!--Mrs. Pile--></persName>
-            <birth when=""><placeName><!-- --></placeName></birth>
-            <death when=""><placeName><!-- --></placeName></death>
-            <occupation>  </occupation>
-            <occupation>  </occupation>
-            <note resp="#BAL"><!-- More research needed --></note>
-            <note>
-               <ref target="”>
-            </note>
-         </person>
-      </listPerson>
-      <listPerson>
-         <person xml:id="">
-            <persName>
-               <surname><!-- --></surname>
-               <forename><!-- --></forename>
-            </persName>
-            <persName><!-- --></persName>
-            <birth when=""><placeName><!-- --></placeName></birth>
-            <death when=""><placeName><!-- --></placeName></death>
-            <occupation>  </occupation>
-            <occupation> </occupation>
-            <note resp="#BAL"><!-- More research needed --></note>
-            <note>
-               <ref target="”>
-            </note>
-         </person>
-      </listPerson>
-      <listPlace>
-         <place xml:id="Overton">
-            <placeName <--Overton--></placeName>
-            <placeName><!----></placeName>
-            <location><geo>
-            </geo></location>
-            <note resp="#BAL"><!--A village near Reading--></note>
-            <note>
-            </note>
-         </place>
-      </listPlace>
-      
       
   </text>
 </TEI>
