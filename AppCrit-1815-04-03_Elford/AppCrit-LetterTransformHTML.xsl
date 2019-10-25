@@ -217,7 +217,7 @@
         <span class="context" title="place">
             <xsl:apply-templates/>
         
-        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')]"><span class="si">
+        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] and not(ancestor::note)"><span class="si">
             <xsl:variable name="siPlace" select="$si//*[@xml:id = substring-after(current()/@ref, '#')]"/>
         <xsl:value-of select="string-join($siPlace/*, ' | ')"/>
             <xsl:text>--</xsl:text>

@@ -362,7 +362,7 @@ span.supplied{background-color:#CCCCFF}
 span.supplied.on{background-color:#FFFAE6}    
 }
     
-div.app {border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; display:flex; flex-direction:row; justify-content:flex-start; align-items:flex-start; }
+div.app {padding-left:.3em; padding-right:.3em; border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; display:flex; flex-direction:row; justify-content:flex-start; align-items:flex-start; }
 
 div.MRM1671 {background-color:#ccccff; }
 
