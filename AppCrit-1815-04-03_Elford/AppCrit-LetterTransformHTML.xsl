@@ -22,49 +22,17 @@
                     content="Supported by the University of Pittsburgh at Greensburg and the Mary Russell Mitford Society."/>
                 <meta name="keywords"
                     content="Mitford, Mary Russell Mitford, Digital Mitford, Digital Mary Russell Mitford, Digital Mary Russell Mitford Archive, Mitford Archive, TEI, Text Encoding Initiative, digital edition, electronic edition, electronic text, Romanticism, Romantic literature, Victorianism, Victorian literature, humanities computing, electronic editing, Beshero-Bondar"/>
-                <link rel="stylesheet" type="text/css" href="mitfordletter.css"/>
+                <link rel="stylesheet" type="text/css" href="appCritLetter.css"/>
                 <!--<script type="text/javascript" src="MRMLetters.js" xml:space="preserve">...</script>-->
                 <script type="text/javascript" src="MRMLetters.js">/**/</script>
             </head>
             <body>
 
                 <div id="title">
-                    <h1>Digital Mitford: Letters</h1>
+                    <h1><a href="https://digitalmitford.org">Digital Mitford</a>: Letters</h1>
                     <hr/>
                 </div>
-                <div id="menubar">
-                    <h3>Digital Mitford: The Mary Russell Mitford Archive</h3>
-                    <ul> <li><a href="index.html">Welcome</a></li> 
-                        <li><a href="about.html">About</a></li> 
-                        <li><a href="bibliogType.html">Published Works</a></li>  <li><a href="lettersData.html">Manuscript Locations</a></li> 
-                        <li> <a href="letters.html">Letters</a></li> 
-                        <li><a href="visual.html">People, Places, and Networks</a></li> 
-                        <li><a href="staff.html">Staff</a></li>  
-                        <li><a href="workshop.html">Workshop Materials</a></li></ul>
-                </div>
               <div id="container">                   
-                    <div id="letterHead">
-                        <p class="boilerplate">
-                            <span>
-                                <strong>Maintained by: </strong> Elisa E. Beshero-Bondar (ebb8 at
-                                pitt.edu) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
-                            </span>
-                            <span>
-                                <strong>Last modified: </strong>
-                                <xsl:value-of select="current-dateTime()"/>
-                            </span>  
-                        </p> 
-                        <div id="fieldset">
-                            <fieldset>
-                                <legend><span class="dipNorm">Our default is the Diplomatic view.<br/> Click to toggle the Normalized view</span><span class="dipNormSmall"> (shows conventional spellings;<br/> hides pagebreaks, insertion marks, and deletions):</span></legend>
-                                <input type="checkbox"
-                                    id="REGtoggle"
-                                    style="cursor:pointer"/>
-                                <br/>
-                            </fieldset>
-                        </div>
-                        <xsl:apply-templates select="//teiHeader"/>   
-                    </div>
                     <div id="floatright">
                         <div id="letter">
                          <xsl:apply-templates select="//body"/>
@@ -204,7 +172,6 @@
     </xsl:template>
 
  
-
     <xsl:template match="hi[@rend='smallcaps']">
         <span class="smallcaps">
             <xsl:apply-templates/>
@@ -435,11 +402,15 @@
       <em><xsl:apply-templates/></em> 
   </xsl:template>
     
-    <xsl:template match="gap">
-        <span class="damage"><xsl:text>[Gap: </xsl:text>
+    <xsl:template match="gap | del[not(text())]">
+        <span class="damage"><xsl:text>[</xsl:text><xsl:value-of select="name()"/><xsl:text>: </xsl:text>
             <xsl:if test="@quantity">
-        <xsl:value-of select="@quantity"/><xsl:text> </xsl:text><xsl:value-of select="@unit"/><xsl:text>, </xsl:text></xsl:if>
-            <xsl:text>reason: </xsl:text><xsl:value-of select="@reason"/><xsl:text>.]</xsl:text>
+        <xsl:value-of select="@quantity"/><xsl:text> </xsl:text><xsl:value-of select="@unit"/>
+            <xsl:if test="number(@quantity) gt 1 and not(matches(@unit, 's$'))"><xsl:text>s</xsl:text></xsl:if>
+            </xsl:if>
+            <xsl:if test="@quantity and @reason"><xsl:text>, </xsl:text></xsl:if>
+            <xsl:if test="@reason"><xsl:text>reason: </xsl:text><xsl:value-of select="@reason"/></xsl:if>
+            <xsl:text>.]</xsl:text>
         </span>
     </xsl:template>
     
