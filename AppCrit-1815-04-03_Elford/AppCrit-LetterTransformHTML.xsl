@@ -31,20 +31,26 @@
                 <div id="title">
                     <h1><a href="https://digitalmitford.org">Digital Mitford</a>: Letters</h1>
                     <h2>Comparison View</h2>
+                    <h3><a href="{tokenize(base-uri(), '/')[last()]}">TEI Source</a></h3>
                     <h3>Legend:</h3> 
                    <ul> 
                        <li><span class="app">Critical apparatus location</span></li>
-                       <li><span class="MRM1671">Mitford's Manuscript</span></li> <li><span class="Lestrange_Letters">A. G. K. L'Estrange, ed., <i>The Life of Mary Russell Mitford</i> (London: R. Bentley, 1870).</span></li>     
-                   
+                       <li><span class="MRM1671">Mitford's Manuscript</span></li> <li><span class="Lestrange_Letters">A. G. K. L'Estrange, ed., <i>The Life of Mary Russell Mitford</i> (London: R. Bentley, 1870).</span></li> 
                    </ul>      
                
                     <hr/>
                 </div>
-             
+ <div id="container">            
                  <div id="letter">
                      <xsl:apply-templates select="//body"/>
                   </div>
                        <hr/>
+ </div>
+                <p class="boilerplate"><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
+                    (ebb8 at pitt.edu) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></span><span>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</span><span>This project is built with <a href="http://www.oxygenxml.com" title="Oxygen XML Editor">the &lt;oXygen/&gt; XML Editor</a> and <a href="http://exist-db.org/">eXist-db: the open-source XML database</a>.</span><span><strong>Last modified:
+                    </strong><script type="application/javascript">
+                        document.write(document.lastModified);
+                    </script></span></p>
             </body>
         </html>
     </xsl:template>
@@ -247,10 +253,10 @@
     </xsl:template>-->
 
     <xsl:template match="persName | rs[@type='person'] | sp | author">
-        <span class="context" title="person">
+       <span class="context" title="person">
             <xsl:apply-templates/>
        
-        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@who, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')]"> 
+        <xsl:if test="($si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@who, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')]) and not(ancestor::note)"> 
            <span class="si">
                <xsl:variable name="siPers" select="$si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@who, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')]"/>
             
@@ -309,10 +315,10 @@
     </xsl:template>
 
     <xsl:template match="orgName | rs[@type='org']">
-        <span class="context" title="org">
-            <xsl:apply-templates/>
+      <span class="context" title="org">
+          <xsl:apply-templates/>
        
-        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')]"> <span class="si">
+        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] and not(ancestor::note)"> <span class="si">
             <xsl:variable name="siOrg" select="$si//*[@xml:id = substring-after(current()/@ref, '#')]"/>
             <xsl:value-of select="string-join($siOrg/orgName, ' | ')"/>
             <xsl:if test="$siOrg//note">
@@ -330,7 +336,7 @@
             <xsl:apply-templates/>
        
         
-        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')]"><span class="si">
+        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] and not(ancestor::note)"><span class="si">
             <xsl:variable name="siRs" select="$si//*[@xml:id = substring-after(current()/@ref, '#')]"/>
             <xsl:value-of select="string-join($siRs/label, ' | ')"/>
             <xsl:value-of select="string-join($siRs/@*, ' - ')"/>
@@ -346,7 +352,7 @@
     
     <xsl:template match="body//title | body//bibl">
         <span class="context" title="title"><xsl:apply-templates/>
-        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')]"> <span class="si">
+        <xsl:if test="$si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')] and not(ancestor::note)"> <span class="si">
             <xsl:variable name="siBibl" select="$si//*[@xml:id = substring-after(current()/@ref, '#')] | $si//*[@xml:id = substring-after(current()/@corresp, '#')]"/>
             <xsl:if test="$siBibl/title"><xsl:value-of select="string-join($siBibl/title, ', ')"/>
             <xsl:text>. </xsl:text>

@@ -63,10 +63,10 @@ p.boilerplate span {text-indent:-1em;
     
     p.boilerplate img {position: relative; top:3px; right: -2px }
 
-/*div#container{
-width: 95%; 
-display:flex; justify-content:space-between; align-items:flex-start; flex-direction:row;
-}*/
+div#container{
+width: 100%; 
+/*display:flex; justify-content:space-between; align-items:flex-start; flex-direction:row;
+*/}
 
 
 /*div#letterHead{
@@ -207,7 +207,7 @@ color:blue;
 
 span.si{
 position: absolute;
-right:15%;
+right:40%;
 color: #000041;
 line-height:normal;
 text-decoration:none;
@@ -226,7 +226,7 @@ display:none;
 
 span.anchor span.note {
  position:absolute;
-right:12%;
+right:40%;
     color:black;
     line-height:normal;
     text-decoration:none;
@@ -361,4 +361,17 @@ span.cut{/*background-color:#CCCCFF;*/ font-size:.75em; font-style:italic;}
 span.supplied{background-color:#CCCCFF}
 span.supplied.on{background-color:#FFFAE6}    
 }
+    
+div.app {border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; display:flex; flex-direction:row; justify-content:flex-start; align-items:flex-start; }
+
+div.MRM1671 {background-color:#ccccff; }
+
+div.Lestrange_Letters {background-color:/*#f7aa65*/ #fcd2ac; }
+    
+span.app {border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; padding-left:.3em; padding-right:.3em;/*display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; */}
+
+span.MRM1671 {background-color:#ccccff; padding-left:.3em; padding-right:.3em;}
+
+span.Lestrange_Letters {background-color:/*#f7aa65*/ #fcd2ac;}
+
         
