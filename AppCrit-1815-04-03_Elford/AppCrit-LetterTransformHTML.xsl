@@ -197,7 +197,7 @@
 
 
 <xsl:template match="pb">
-   <span class="pagebreak"><xsl:text>page&#xa0;</xsl:text><xsl:value-of select="@n"/><br/></span> 
+ <!--2019-10-24 ebb: Suppressing pb element to improve app crit display:  <span class="pagebreak"><xsl:text>page&#xa0;</xsl:text><xsl:value-of select="@n"/><br/></span> -->
     
 </xsl:template>
 
