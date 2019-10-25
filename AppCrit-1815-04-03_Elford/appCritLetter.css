@@ -9,7 +9,7 @@ body{
    /*background-color: #BBD6F1;*/ 
    
     text-align:left;
-    width:100%;
+    width:90%;
     line-height:25px;
    
 padding: 10px 10px 40px 10px;
@@ -242,17 +242,17 @@ right:12%;
     }
     }
     
-div.app {display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; }
+div.app {border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; display:flex; flex-direction:row; justify-content:flex-start; align-items:flex-start; }
 
-div.MRM1671 {background-color:#ccccff}
+div.MRM1671 {background-color:#ccccff; }
 
-div.Lestrange_Letters {background-color:#f7aa65}
+div.Lestrange_Letters {background-color:/*#f7aa65*/ #fcd2ac; }
     
-span.app {padding-left:1em; padding-right:1em;/*display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; */}
+span.app {border:solid maroon .5px; border-left: solid maroon 2px; border-right: solid maroon 2px; padding-left:.3em; padding-right:.3em;/*display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; */}
 
-span.MRM1671 {background-color:#ccccff}
+span.MRM1671 {background-color:#ccccff; padding-left:.3em; padding-right:.3em;}
 
-span.Lestrange_Letters {background-color:#f7aa65}
+span.Lestrange_Letters {background-color:/*#f7aa65*/ #fcd2ac;}
 
 
  

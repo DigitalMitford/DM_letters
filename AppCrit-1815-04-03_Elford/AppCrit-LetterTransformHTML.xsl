@@ -30,6 +30,14 @@
 
                 <div id="title">
                     <h1><a href="https://digitalmitford.org">Digital Mitford</a>: Letters</h1>
+                    <h2>Comparison View</h2>
+                    <h3>Legend:</h3> 
+                   <ul> 
+                       <li><span class="app">Critical apparatus location</span></li>
+                       <li><span class="MRM1671">Mitford's Manuscript</span></li> <li><span class="Lestrange_Letters">A. G. K. L'Estrange, ed., <i>The Life of Mary Russell Mitford</i> (London: R. Bentley, 1870).</span></li>     
+                   
+                   </ul>      
+               
                     <hr/>
                 </div>
              
@@ -153,7 +161,7 @@
        
        <xsl:when test="not(descendant::p)">  <span class="{substring-after(@wit, '#')}">
          <xsl:choose>
-             <xsl:when test="not(text())">
+             <xsl:when test="string-length() = 0">
                  <span class="cut">[empty]</span>
              </xsl:when>
              <xsl:otherwise>
