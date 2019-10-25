@@ -10,8 +10,9 @@ body{
    
     text-align:left;
     width:100%;
+    line-height:25px;
    
-/*padding: 10px 10px 40px 10px;*/
+padding: 10px 10px 40px 10px;
 border-radius: 10px;
 }
 div#images img{
@@ -62,24 +63,24 @@ p.boilerplate span {text-indent:-1em;
     
     p.boilerplate img {position: relative; top:3px; right: -2px }
 
-div#container{
+/*div#container{
 width: 95%; 
 display:flex; justify-content:space-between; align-items:flex-start; flex-direction:row;
-}
+}*/
 
 
-div#letterHead{
+/*div#letterHead{
 font-size: .75em;   
 flex:1;
 padding-left:20px;
 padding-right:20px;
-}
+}*/
 
-div#floatright{flex:1.5;
+/*div#floatright{flex:1.5;
   
-}
+}*/
 
- div#fieldset
+ /*div#fieldset
    {
  background-color: #FFDB90;
   text-align:left; 
@@ -91,14 +92,13 @@ span.dipNorm {display:block;
  white-space: normal;
 }
 span.dipNormSmall {display:block;
-white-space:normal; font-size:.9em}
+white-space:normal; font-size:.9em}*/
 
 
 div#letter{
 
-    margin: auto;
-    display:inline-block;
-    vertical-align:top;
+    width: 95%; 
+display:flex; justify-content:space-between; align-items:flex-start; flex-direction:column;
   
 }
 
@@ -163,8 +163,8 @@ color:#CC0000;
 border-bottom:1px dotted 
 }
 
-span.prose {line-height:25px}
-span.prose.on{line-height:normal}
+/*span.prose {line-height:25px}
+span.prose.on{line-height:normal}*/
 
 span.pagebreak {font-size: .75em; text-align:center; display:block}
 span.pagebreak.on {display:none;}
@@ -192,8 +192,10 @@ span.above-line {
 vertical-align:super;      
 }
 
-span.damage{background-color:#CCCCFF; font-size:.75em; font-style:italic;}
+span.damage{/*background-color:#CCCCFF; */font-size:.75em; font-style:italic;}
 span.damage.on{display:none;}
+
+span.cut{/*background-color:#CCCCFF; */ font-size:.75em; font-style:italic;}
 
 span.supplied{background-color:#CCCCFF}
 span.supplied.on{background-color:#FFFAE6}
@@ -239,6 +241,20 @@ right:12%;
    display:none;
     }
     }
+    
+div.app {display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; }
+
+div.MRM1671 {background-color:#ccccff}
+
+div.Lestrange_Letters {background-color:#f7aa65}
+    
+span.app {padding-left:1em; padding-right:1em;/*display:flex; flex-direction:row; justify-content:space-evenly; align-items:flex-start; */}
+
+span.MRM1671 {background-color:#ccccff}
+
+span.Lestrange_Letters {background-color:#f7aa65}
+
+
  
  @media print {
  div#menubar {display:none}
@@ -338,6 +354,9 @@ vertical-align:super;
 
 span.damage{background-color:#CCCCFF; font-size:.75em; font-style:italic;}
 span.damage.on{display:none;}
+
+span.cut{/*background-color:#CCCCFF;*/ font-size:.75em; font-style:italic;}
+
 
 span.supplied{background-color:#CCCCFF}
 span.supplied.on{background-color:#FFFAE6}    

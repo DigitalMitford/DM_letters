@@ -32,14 +32,11 @@
                     <h1><a href="https://digitalmitford.org">Digital Mitford</a>: Letters</h1>
                     <hr/>
                 </div>
-              <div id="container">                   
-                    <div id="floatright">
-                        <div id="letter">
-                         <xsl:apply-templates select="//body"/>
-                        </div>
+             
+                 <div id="letter">
+                     <xsl:apply-templates select="//body"/>
+                  </div>
                        <hr/>
-                    </div>                  
-                </div>
             </body>
         </html>
     </xsl:template>
@@ -134,13 +131,36 @@
     </xsl:template>
   
     <xsl:template match="body//p">
-        <p><span class="prose">
-            <xsl:apply-templates/></span>
+        <p>
+            <xsl:apply-templates/>
         </p>
+    </xsl:template>
+    <xsl:template match="app">
+       <xsl:choose><xsl:when test="descendant::p"> <div class="app"><xsl:apply-templates/></div></xsl:when>
+       <xsl:otherwise>
+           <span class="app"><xsl:apply-templates/></span>
+       </xsl:otherwise>
+       </xsl:choose>
     </xsl:template>
     
     <xsl:template match="rdg">
-        <!--ebb: Be careful of this. I'm writing this template match to suppress rdg elements on the understanding that we are using <lem> to indicate a Mitford editor's authoritative reading of the ms, vs. a misreading or alternate reading by L'Estrange or someone else. I'm not indicating the @wit here; it may need to be adjusted depending on the letter.-->
+   <xsl:choose>
+       <xsl:when test="descendant::p">
+           <div class="{substring-after(@wit, '#')}">
+               <xsl:apply-templates/>
+           </div>
+       </xsl:when>
+       
+       <xsl:when test="not(descendant::p)">  <span class="{substring-after(@wit, '#')}">
+         <xsl:choose>
+             <xsl:when test="not(text())">
+                 <span class="cut">[empty]</span>
+             </xsl:when>
+             <xsl:otherwise>
+                 <xsl:apply-templates/>
+             </xsl:otherwise>
+         </xsl:choose>
+     </span></xsl:when></xsl:choose>
     </xsl:template>
 
     <xsl:template match="closer">
