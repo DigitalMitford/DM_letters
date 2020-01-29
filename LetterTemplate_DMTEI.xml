@@ -101,6 +101,19 @@ Change to reflect photo file names for your letter (as you see her
          </sourceDesc>
       </fileDesc>
      <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+           <persName ref="#sender_ID"><!--Name of sender --></persName>
+           <placeName ref="#place-sent-from_ID"><!--Place name from where this letter was written and sent (if available).--></placeName>
+           <date when="yyyy-mm-dd"><!--Date as written by the writer on the letter (if available).--></date>
+        </correspAction>
+        <correspAction type="received">
+           <persName ref="#recipient_ID"><!--Name of recipient --></persName>
+           <placeName ref="#place-sent-to_ID"><!--Place name to which this letter was directed (if available).--></placeName>
+           <date when="yyyy-mm-dd"><!--Last postmarked date indicating when the letter was delivered/received (if available).--></date>
+        </correspAction>
+        </correspDesc>
+        
         <handNotes><!--This section documents and identifies whenever we see additional hands, other than Mitford's, at work in the document. Those hands could be a contemporary (such as her mother), but they're more frequently marks made by later editors such as William Harness or Francis Needham. Use the <handNote> elements to describe the role of each hand in this manuscript. If the hand is, say, Mitford's mother's and is writing a page of the letter, you indicate when that happens in the body of the letter using the <handShift> element. The @corresp attributes on <handNote> point to xml:ids stored (or to be stored) in our Site Index.-->
            <handNote corresp="#Id_who"><!--Description of role in this mansuscript. All defined handnotes are listed in the SI.--></handNote>
            <!--Below are some SAMPLE HANDNOTES that appear commonly on MANY letters. Please be sure to CHANGE these if your letter differs.-->
