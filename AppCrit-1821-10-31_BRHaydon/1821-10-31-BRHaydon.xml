@@ -329,11 +329,11 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
             <closer>
                <address><addrLine><app><lem wit="#ebb">B. R. Haydon Esqre</lem></app></addrLine>
-                     <addrLine><app><lem wit="#ebb"><placeName><district ref="#StJohns_Place">St. John's
-                        Place</district></placeName></lem></app></addrLine>
-                     <addrLine><app><lem wit="#ebb"><placeName><district ref="#Lisson_Grove">Lisson Grove
-                        North</district></placeName></lem></app></addrLine>
-                    <addrLine> <app><lem wit="#ebb"><placeName ref="#Regents_Park"><district ref="#Regents_Park">Regent's Park</district></placeName></lem></app></addrLine>
+                     <addrLine><app><lem wit="#ebb"><placeName ref="#StJohns_Place">St. John's
+                        Place</placeName></lem></app></addrLine>
+                     <addrLine><app><lem wit="#ebb"><placeName ref="#Lisson_Grove">Lisson Grove
+                        North</placeName></lem></app></addrLine>
+                    <addrLine> <app><lem wit="#ebb"><placeName ref="#Regents_Park">Regent's Park</placeName></lem></app></addrLine>
                      <addrLine><app><lem wit="#ebb"><placeName ref="#London_city">London</placeName></lem></app></addrLine></address>
             </closer>
          </div>
