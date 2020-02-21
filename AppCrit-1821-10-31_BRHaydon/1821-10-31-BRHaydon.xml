@@ -9,7 +9,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
 type="application/xml" 
 schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MRM1786">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -123,8 +123,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <front>
          <div type="witness">
             <listWit>
-               <witness xml:id="ebb">Elisa Beshero-Bondar</witness>
-               <!-- amp: We need an xml:id for this letter and a way to refer to it -->
+               <witness xml:id="digMitTeam">Mary Russell Mitford's manuscript letter as read by the Digital Mitford Project</witness>
                <witness xml:id="LEst1870">
                   <bibl><title>The Life of Mary Russell Mitford Related in a Selection from Her
                         Letters to Her Friends, Second and Revised edition</title>, 3 vols., Ed.
@@ -153,8 +152,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#LEst1870">.</rdg>
                </app>
                <app>
-                  <lem wit="#ebb">--If she told who the husband was to be she should never <del
-                        rend="squiggles"><gap quantity="1" unit="word"/></del> get him.</lem>
+                  <rdg wit="#digMitTeam">--If she told who the husband was to be she should never <del
+                        rend="squiggles"><gap quantity="1" unit="word"/></del> get him.</rdg>
                </app> There was no saying a word after that<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> you know. By<app>
@@ -164,22 +163,22 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </app>bye<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> nothing but the sort of sacred air that breathes around Bridecake<app>
-                  <lem wit="#ebb">--so that to steal that would be to invade the sweetest &amp;
+                  <rdg wit="#digMitTeam">--so that to steal that would be to invade the sweetest &amp;
                      holiest of our affections &amp; sympathies--nothing but this fine &amp; general
-                     feeling</lem>
+                     feeling</rdg>
                </app> could have preserved your munificent present<app>
-                  <lem wit="#ebb">, </lem>
+                  <rdg wit="#digMitTeam">, </rdg>
                </app> &amp; brought it safe to us. By some accident it was sent<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> not by a <placeName ref="#Reading_city">Reading</placeName><app>
                   <rdg wit="#LEst1870">,</rdg>
                </app><app>
-                  <lem wit="#ebb"> Coach</lem>
+                  <rdg wit="#digMitTeam"> Coach</rdg>
                </app> but a <placeName ref="#Newbury">Newbury</placeName>
                <app>
                   <rdg wit="#LEst1870"> coach</rdg>
                </app><app>
-                  <lem wit="#ebb"> one</lem>
+                  <rdg wit="#digMitTeam"> one</rdg>
                </app>, &amp; found its way to <placeName ref="#ThreeMileCross">Three Mile
                   Cross</placeName>, after being carried half way to <placeName ref="#Newbury"
                   >Newbury</placeName>, through the intervention of all manner of men &amp;
@@ -193,7 +192,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </app> it will never forsake you<app>
                   <rdg wit="#LEst1870">, never</rdg>
                </app><app>
-                  <lem wit="#ebb">! Never</lem>
+                  <rdg wit="#digMitTeam">! Never</rdg>
                </app>! I think that last honeymoon letter<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> written whilst the fair Bride was sitting<app>
@@ -205,24 +204,24 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                that charming seal. How much you must both have felt in going into your painting room<app>
                   <rdg wit="#LEst1870">.</rdg>
                </app><app>
-                  <lem wit="#ebb">!--</lem>
+                  <rdg wit="#digMitTeam">!--</rdg>
                </app> Will <title corresp="#Lazarus_Haydon">the Lazarus</title> be finished against next
                season? If any thing could improve your genius<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> it would be living in such a sunshine of love &amp; beauty.</p>
             <p><persName ref="#James_Miss">Miss James</persName> is<app>
-                  <lem wit="#ebb"> very anxious to have the pleasure of being known to <persName
+                  <rdg wit="#digMitTeam"> very anxious to have the pleasure of being known to <persName
                         ref="#Haydon_Mrs">Mrs. Haydon</persName>--She mentioned your note with great
                      delight, &amp; talked of calling--but was not I suppose certain of the time you
                      would return to <placeName ref="#Lisson_Grove">Lisson
-                           Grove</placeName>. She is</lem>
+                           Grove</placeName>. She is</rdg>
                </app> by this time back again at <placeName ref="#Richmond">Richmond</placeName>. I
                wished her very much to call on you Sunday or Monday<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> that she might leave with you my poor <title ref="#Foscari_MRMplay">Tragedy</title><app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> which I <app>
-                  <lem wit="#ebb">have</lem>
+                  <rdg wit="#digMitTeam">have</rdg>
                </app> should<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app> of all things<app>
@@ -230,17 +229,17 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </app> have <app>
                   <rdg wit="#LEst1870">liked</rdg>
                </app><app>
-                  <lem wit="#ebb">wished </lem>
+                  <rdg wit="#digMitTeam">wished </rdg>
                </app> you to read<app>
                   <rdg wit="#LEst1870">,</rdg>
                </app><app>
-                  <lem wit="#ebb">--indeed I begged her to take the chance--</lem>
+                  <rdg wit="#digMitTeam">--indeed I begged her to take the chance--</rdg>
                </app>I have such an opinion of your judgment. But it is now out of her hands. Only
                think of my shocking ill luck in having written on the same subject with <persName
                   ref="#Byron">Lord Byron</persName>--The story of <persName ref="#Foscari_Fr">Foscari</persName><app>
                   <rdg wit="#LEst1870">!</rdg>
                </app><app>
-                  <lem wit="#ebb">--</lem>
+                  <rdg wit="#digMitTeam">--</rdg>
                </app>I am so distressed at <rs type="person" ref="#Byron">the idea of a competition,
                   not merely with his Lordship's talents, but with his great name, &amp; the strange
                   awe in which he holds people, &amp; the terrible scoffs &amp; sneers in which he
@@ -257,7 +256,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      >Ravenna</placeName>.<!--ebb: Give more details: We need to determine the date that Byron's volume was announced, presumably in October.--></note>
                I rather think now that it will not be offered--that <persName ref="#Talfourd_Thos"
                   >Mr. Talfourd</persName> will suppress it--&amp; I heartily wish he may. <app>
-                  <lem wit="#ebb">
+                  <rdg wit="#digMitTeam">
                      <!-- App Lemma start: what follows is missing from L'Estrange -->My poor
                      <title ref="#Foscari_MRMplay">Tragedy</title> has been a work of great labour &amp; is certainly complete enough in
                      its own small way, but it is abundantly womanish &amp; feeble, &amp; does not
@@ -269,7 +268,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      the finest thing he ever did--&amp; <title ref="#Marino_Faliero">Marino
                         Faliero</title> certainly the worst. But <persName ref="#Foscari_Fr">Foscari</persName> is a story of real human sympathy--not of factitious
                      sentiment--He will certainly succeed in that. If this play
-                     <!-- App Lemma concludes. L'Estrange reads: If it be sent back... --></lem>
+                     <!-- App Lemma concludes. L'Estrange reads: If it be sent back... --></rdg>
                   <rdg wit="#LEst1870">If it</rdg>
                </app>be sent back to me unoffered<app>
                   <rdg wit="#LEst1870">,</rdg>
@@ -279,8 +278,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <rdg wit="#LEst1870">, </rdg>
                </app>&amp; shall take for the opening the exquisite first act of the <title
                   ref="#Orestes_play">Orestes</title> of <persName ref="#Euripides">Euripides</persName><app>
-                  <lem wit="#ebb">--which I saw acted so finely a fortnight ago, &amp; which it is
-                     quite wonderful to think has never been transferred to the English stage.</lem>
+                  <rdg wit="#digMitTeam">--which I saw acted so finely a fortnight ago, &amp; which it is
+                     quite wonderful to think has never been transferred to the English stage.</rdg>
                   <rdg wit="#LEst1870">.</rdg>
                </app> What astonishing people those Greek dramatists were! I am just now reading
                   <persName ref="#Potter_R">Potter</persName>'s <title ref="#Aeschylus_Potter"
@@ -288,7 +287,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   type="portion_of_seal"/> would look at the frescoes of <persName
                   ref="#Michelangelo">Michael Angelo</persName>
                <app>
-                  <lem wit="#ebb"><del type="crossout">&amp;</del></lem>
+                  <rdg wit="#digMitTeam"><del type="crossout">&amp;</del></rdg>
                   <rdg wit="#LEst1870">.</rdg>
                </app> Happening to express something of this enthusiasm to a scholar of very great
                name he answered--"<title ref="#Prom_Chained">The Prometheus</title>? Yes <app>
@@ -298,43 +297,43 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </persName> to know Greek<app>
                   <rdg wit="#LEst1870">?</rdg>
                </app><app>
-                  <lem wit="#ebb">!</lem>
+                  <rdg wit="#digMitTeam">!</rdg>
                </app> And what business have I to be intruding so long on you?--Good bye my dear Sir<app>
                   <rdg wit="#LEst1870">.</rdg>
                </app> My <persName ref="#Mitford_Geo">Father</persName> &amp; <persName ref="#Russell_M">Mother</persName> join <app>
-                  <lem wit="#ebb"><add place="above">
-                        <metamark place="below" function="insertion" rend="carat"/>me</add></lem>
+                  <rdg wit="#digMitTeam"><add place="above">
+                        <metamark place="below" function="insertion" rend="carat"/>me</add></rdg>
                   <rdg wit="#LEst1870">me</rdg>
                </app> in every kind remembrance &amp; kinder wish to you &amp; to <persName
                   ref="#Haydon_Mrs">Mrs Haydon</persName>. </p>
             <closer>
                <lb/>Ever most sincerely <app>
-                  <lem wit="#ebb">your's</lem>
+                  <rdg wit="#digMitTeam">your's</rdg>
                   <rdg wit="#LEst1870">yours,</rdg>
                </app><lb/>
                <signed><app>
-                     <lem wit="#ebb">MR. Mitford.</lem>
+                     <rdg wit="#digMitTeam">MR. Mitford.</rdg>
                      <rdg wit="#LEst1870">M. R. Mitford.</rdg>
                   </app></signed>
                <lb/></closer>
             <postscript>
                <p><app>
-                     <lem wit="#ebb">Do not mention my <title ref="#Foscari_MRMplay">Foscari</title>
+                     <rdg wit="#digMitTeam">Do not mention my <title ref="#Foscari_MRMplay">Foscari</title>
                         unless it should really be likely to come out of which you shall have the
                         earliest notice. But of that there is very little chance. Once more God
                         bless you. We have just been drinking your health &amp; your dear <persName
-                           ref="#Haydon_Mrs">Mary</persName>'s. Again Good bye <pb n="4"/></lem>
+                           ref="#Haydon_Mrs">Mary</persName>'s. Again Good bye <pb n="4"/></rdg>
                   </app></p>
             </postscript>
 
             <closer>
-               <address><addrLine><app><lem wit="#ebb">B. R. Haydon Esqre</lem></app></addrLine>
-                     <addrLine><app><lem wit="#ebb"><placeName ref="#StJohns_Place">St. John's
-                        Place</placeName></lem></app></addrLine>
-                     <addrLine><app><lem wit="#ebb"><placeName ref="#Lisson_Grove">Lisson Grove
-                        North</placeName></lem></app></addrLine>
-                    <addrLine> <app><lem wit="#ebb"><placeName ref="#Regents_Park">Regent's Park</placeName></lem></app></addrLine>
-                     <addrLine><app><lem wit="#ebb"><placeName ref="#London_city">London</placeName></lem></app></addrLine></address>
+               <address><addrLine><app><rdg wit="#digMitTeam">B. R. Haydon Esqre</rdg></app></addrLine>
+                     <addrLine><app><rdg wit="#digMitTeam"><placeName ref="#StJohns_Place">St. John's
+                        Place</placeName></rdg></app></addrLine>
+                     <addrLine><app><rdg wit="#digMitTeam"><placeName ref="#Lisson_Grove">Lisson Grove
+                        North</placeName></rdg></app></addrLine>
+                    <addrLine> <app><rdg wit="#digMitTeam"><placeName ref="#Regents_Park">Regent's Park</placeName></rdg></app></addrLine>
+                     <addrLine><app><rdg wit="#digMitTeam"><placeName ref="#London_city">London</placeName></rdg></app></addrLine></address>
             </closer>
          </div>
       </body>
