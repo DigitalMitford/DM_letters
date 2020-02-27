@@ -7,3 +7,6 @@ We'll add versioning markup to this XML file to indicate how "The Lady's Magazin
 The Lady's Magazine sketch is a series of photos taken in the archives, so we'll have to read it carefully next to the XML here 
 in order to find the divergent passages to code. Here is where to find the Lady's Magazine version in Box: 
 https://pitt.box.com/s/el7kfrtij7g0s075quzx70ddfta8u7rf
+
+Just like with the Haydon letter, we need to update the schema line first to use the Mitford ODD-generated schema, and make sure everything is valid.
+We should add a revisionDesc to the teiHeader of this and the letter to describe what changes you are applying. The we set to work versioning! 
