@@ -50,7 +50,7 @@
                   </div>
                        <hr/>
  </div>
-                <p class="boilerplate"><span><strong>This work was transcribed and encoded by: </strong> <xsl:value-of select="string-join(descendant::respStmt/persName[not(last())], ', ')"/> with versioning markup added by <xsl:value-of select="descendant::respStmt/persName[last()]"/>.</span><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
+                <p class="boilerplate"><span><strong>This work was transcribed and encoded by: </strong> <xsl:value-of select="string-join(descendant::titleStmt//respStmt/persName[not(last())], ', ')"/> with versioning markup added by <xsl:value-of select="descendant::titleStmt//respStmt/persName[last()]"/>.</span><span><strong>Maintained by: </strong> Elisa E. Beshero-Bondar
                     (ebb8 at pitt.edu) <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a></span><span>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</span><span>This project is built with <a href="http://www.oxygenxml.com" title="Oxygen XML Editor">the &lt;oXygen/&gt; XML Editor</a> and <a href="http://exist-db.org/">eXist-db: the open-source XML database</a>.</span><span><strong>Last modified:
                     </strong><script type="application/javascript">
                         document.write(document.lastModified);

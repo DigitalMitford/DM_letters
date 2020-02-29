@@ -112,8 +112,8 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
       <body>
          <div type="sketch">
             <pb n="273"/>
-            <head><app><rdg wit="#MRM-OV">A PARTING GLANCE AT OUR
-               VILLAGE.</rdg><rdg wit="#MRM-LM">MORE OF OUR VILLAGE.</rdg></app><!--ebb: If there’s a subtitle use an <lb/> element to separate -->
+            <head><app><rdg wit="#MRM-LM">MORE OF OUR VILLAGE.</rdg><rdg wit="#MRM-OV">A PARTING GLANCE AT OUR
+               VILLAGE.</rdg></app><!--ebb: If there’s a subtitle use an <lb/> element to separate -->
             </head>
             <p><app>
                   <rdg wit="#MRM-LM">When I get acquainted with people, whether in a printed book,
