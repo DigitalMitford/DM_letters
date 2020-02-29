@@ -94,7 +94,9 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
             <p>Describes our editorial practice.</p>
          </editorialDecl>
       </encodingDesc>
-
+<revisionDesc>
+   <change when="2020-02-29" who="#amp">Added critical apparatus markup to compare the sketch that appears in the 1824 published volume of Mitford's Our Village with the version of the sketch tha appears in the December 31, 1823 issue of The Lady's Magazine.</change>
+</revisionDesc>
    </teiHeader>
    <text>
       <front>
@@ -109,8 +111,8 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
       <body>
          <div type="sketch">
             <pb n="273"/>
-            <head>A PARTING GLANCE AT OUR
-               VILLAGE.<!--ebb: If there’s a subtitle use an <lb/> element to separate -->
+            <head><app><rdg wit="#MRM-OV">A PARTING GLANCE AT OUR
+               VILLAGE.</rdg><rdg wit="#MRM-LM">MORE OF OUR VILLAGE.</rdg></app><!--ebb: If there’s a subtitle use an <lb/> element to separate -->
             </head>
             <p><app>
                   <rdg wit="#MRM-LM">When I get acquainted with people, whether in a printed book,
@@ -221,7 +223,7 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                actually caught that little <app><rdg wit="#MRM-OV">lady</rdg><rdg wit="#MRM-LM">gentlewoman</rdg></app> stuck on a chest of drawers, contemplating herself
                in the glass, and striving with all her might to gather the rich curls that hang
                about her neck, and turn them under a comb. Well! If Sally and Lizzy live to be old
-               maids, they may probably make the amende honorable to time, and wish to be thought
+               maids, they may probably make the <app><rdg wit="#MRM-OV">amende honorable</rdg><rdg wit="#MRM-LM"><hi rend="italic">amende honorable</hi></rdg></app> to time, and wish to be thought
                young again. In the meanwhile, shall we walk up the street?</p>
             <p>The first cottage is that of Mr. H. the patriot, the illuminator, the independent and
                sturdy yet friendly member of our little state, who, stout and comely, with a
@@ -257,7 +259,7 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                There is an <app><rdg wit="#MRM-OV">old man</rdg><rdg wit="#MRM-LM">old blind man</rdg></app> in our parish work-house, who occasionally walks through the
                street, led by a little boy holding the end of a long stick. The idea of this man,
                who had lived in utter blindness for thirty years, was always singularly distressing
-               to Mr. H.<!-- 2020-02-28 amp: Left off here for the night--> I shall never forget the address with which our simple gardener used to try
+               to Mr. H. I shall never forget the address with which our simple gardener used to try
                to divert his attention from this miserable fellow-sufferer. He would get between
                them to prevent the possibility of recognition by the dim and uncertain vision; would
                talk loudly to drown the peculiar noise, the sort of duet of feet, caused by the
@@ -271,19 +273,19 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                operation has been performed with equal skill and success. You may still see some of
                the country boys lingering round the gate with looks of strong and wondering
                interest; poor John is going to and fro, he knows not for what, unable to rest a
-               moment; Mrs. H., too, is walking in the garden, shedding tears of thankfulness; and
-               he who came to support their spirit, the stout strong-hearted farmer A., seems
+               moment; <app><rdg wit="#MRM-OV">Mrs. H., too,</rdg><rdg wit="#MRM-LM">Mrs. H. too</rdg></app> is walking in the garden, shedding tears of thankfulness; and
+               he who came to support their <app><rdg wit="#MRM-OV">spirit</rdg><rdg wit="#MRM-LM">spirits</rdg></app>, the stout strong-hearted farmer A., seems
                trembling and overcome. The most tranquil person in the house is probably the
-               patient: he bore the operation with resolute firmness, and he has seen again. Think
+               patient: he bore the operation with resolute firmness, and <app><rdg wit="#MRM-OV">he has seen again</rdg><rdg wit="#MRM-LM"><hi rend="italic">he has seen again</hi></rdg></app>. Think
                of the bliss bound up in those four words! He is in darkness now, and must remain so
-               for some weeks; but he has seen, and he will see; and that humble cottage is again a
+               for some weeks; but he has <app><rdg wit="#MRM-OV">seen,</rdg><rdg wit="#MRM-LM">seen</rdg></app> and he will see; and that humble cottage is again a
                happy dwelling.</p>
             <p>Next we come to the shoemaker’s abode. All is unchanged there, except that its master
                becomes more industrious and more pale-faced, and that his fair<pb n="282"/> daughter
                is a notable exemplification of the developement which I have already noticed amongst
                our young things. But she is in the real transition state, just emerging from the
                chrysalis, and the eighteen months, between fourteen and a half and sixteen, would
-               meta- morphose a child into a woman all the world over. She is still pretty, but not
+               <app><rdg wit="#MRM-OV">meta- morphose</rdg><rdg wit="#MRM-LM">metamorphose</rdg></app> a child into a woman all the world over. She is still pretty, but not
                so elegant as when she wore frocks and pinafores, and, unconsciously classical,
                parted her long brown locks in the middle of her forehead, and twisted them up in a
                knot behind, giving to her finely-shaped head and throat the air of a Grecian statue.
@@ -292,7 +294,7 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                her reach, feeding pigs and poultry, playing with May, and prattling with an
                open-hearted frankness to the country lads, who assemble at evening in the shop to
                enjoy a little gentle gossiping; for be it known to my London readers, that the
-               shoemaker’s in a country village is now what (according to tradition, and the old
+               shoemaker’s in a <app><rdg wit="#MRM-OV">country</rdg><rdg wit="#MRM-LM">remote</rdg></app> village is now what (according to <app><rdg wit="#MRM-OV">tradition,</rdg><rdg wit="#MRM-LM">tradition</rdg></app> and the old
                novels) the barber’s used to be, the resort of all the male newsmongers, especially
                the young. Then she talked to these visitors gaily and openly, sang and laughed and
                ran in and out, and took no more thought of a young man than of a gosling. Then she
@@ -311,8 +313,8 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                a very fair chance to carry her off. He is called Jem Tanner, and is a fine lad, with
                an open ruddy countenance, a clear blue eye, and curling hair of that tint which the
                poets are pleased to denominate golden. Though not one of our eleven, he was a
-               promising cricketer. We have missed him lately on the green at the Sunday-evening
-               game, and I find on enquiry that he now frequents a chapel about a mile off, where he
+               promising cricketer. We have missed him lately on the green at the <app><rdg wit="#MRM-OV">Sunday-evening</rdg><rdg wit="#MRM-LM">Sunday evening</rdg></app>
+               game, and I find on <app><rdg wit="#MRM-OV">enquiry</rdg><rdg wit="#MRM-LM">inquiry</rdg></app> that he now frequents a chapel about a mile off, where he
                is the best male singer, as our nymph of the shoe-shop is incom<pb n="284"/>parably
                the first female. I am not fond of betting; but I would venture the lowest stake of
                gentility, a silver three-pence, that, before the winter ends, a wedding will be the
@@ -326,12 +328,12 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                been busy here in a different and more awful form. Our sometime constable, the
                tipsiest of parish officers, of blacksmiths and of men, is dead. Returning from a
                revel with a companion as full of beer as himself, one or the other, or both,
-               contrived to overset the cart in a ditch; (the living scapegrace is pleased to lay
+               contrived to overset the cart in a <app><rdg wit="#MRM-OV">ditch;</rdg><rdg wit="#MRM-LM">ditch</rdg></app> (the living scapegrace is pleased to lay
                the blame of the mishap on the horse, but that is contrary to all probability, this
-               respectable quadruped being a water-drinker ;) and inward bruises, acting on inflamed
+               respectable quadruped being a <app><rdg wit="#MRM-OV">water-drinker ;)</rdg><rdg wit="#MRM-LM">water-drinker);</rdg></app> and inward bruises, acting on inflamed
                blood and an impaired constitution, carried him off in a very short time, leaving an
                ailing wife and eight children, the eldest of whom is only fourteen years of age.
-               This sounds like a very tragical story: yet, perhaps, be<pb n="285"/>cause the loss
+               This sounds like a very tragical <app><rdg wit="#MRM-OV">story:</rdg><rdg wit="#MRM-LM">story;</rdg></app> yet, <app><rdg wit="#MRM-OV">perhaps,</rdg><rdg wit="#MRM-LM"/></app> be<pb n="285"/>cause the loss
                of a drunken husband is not quite so great a calamity as the loss of a sober one, the
                effect of this event is not altogether so melancholy as might be expected. The widow,
                when she was a wife, had a complaining broken-spirited air, a peevish manner, a
@@ -342,18 +344,18 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                tears, was improved, and how completely through all her sighings her tone had lost
                its peevishness. I have never seen her out of spirits or out of humour since. She
                talks and laughs and bustles about, managing her journeymen and scolding her children
-               as notably as any dame in the parish. The very house looks more cheerful; she has cut
+               as notably as any dame in the parish. The very house looks more <app><rdg wit="#MRM-OV">cheerful;</rdg><rdg wit="#MRM-LM">cheerful:</rdg></app> she has cut
                down the old willow-trees that stood in the court, and let in the light; and now the
                sun glances brightly from the casement windows, and plays amidst the vine-leaves and
                the clusters of grapes which cover the walls; the door is newly painted, and shines
-               like the face of its mistress; even the forge has lost half its dinginess. Every
+               like the face of its <app><rdg wit="#MRM-OV">mistress;</rdg><rdg wit="#MRM-LM">mistress:</rdg></app> even the forge has lost half its dinginess. Every
                thing smiles. She indeed talks by fits of “poor George,” especially when any allusion
                to her old enemy mine host of the Rose brings the deceased to her me<pb n="286"
                />mory; then she bewails (as is proper) her dear husband and her desolate condition;
                calls herself a lone widow; sighs over her eight children; complains of the troubles
                of business, and tries to persuade herself and others that she is as wretched as a
                good wife ought to be. But this will not do. She is a happier woman than she has been
-               any time these fifteen years, and she knows it. My dear village-husbands, if you have
+               any time these fifteen years, and she knows <app><rdg wit="#MRM-OV">it. My</rdg><rdg wit="#MRM-LM">it.—My</rdg></app> dear village-husbands, if you have
                a mind that your wives should be really sorry when you die, whether by a fall from a
                cart or otherwise, keep from the alehouse!</p>
             <p>Next comes the tall thin red house, that ought to boast genteeler inmates than its
@@ -369,14 +371,14 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                totter across the road to her good<pb n="287"/> friend the nymph of the shoe-shop,
                Margaret made her appearance; and poor Fanny, discarded at once from the maid’s arms
                and her mother’s knee, degraded from the rank and privileges of “the baby,” (for at
-               that age precedence is strangely reversed,) would have had a premature foretaste of
+               that age precedence is strangely <app><rdg wit="#MRM-OV">reversed,</rdg><rdg wit="#MRM-LM">reversed</rdg></app>) would have had a premature foretaste of
                the instability of human felicity, had she not taken refuge with that best of nurses,
-               a fond father. Every thing thrives about the shop, from the rosy children to the neat
+               a fond father. Every thing thrives about the shop, from the <app><rdg wit="#MRM-OV">rosy</rdg><rdg wit="#MRM-LM">pretty</rdg></app> children to the neat
                maid and the smart apprentice. No room now for lodgers, and no need! The young
                mantua-making schoolmistresses, the old inmates, are gone; one of them not very far.
                She grew tired of scolding little boys and girls about their A, B, C, and of being
                scolded in her turn by their sisters and mothers about pelisses and gowns; so she
-               gave up both trades almost a year ago, and has been ever since our pretty Harriet. I
+               gave up both trades almost a year ago, and has been ever since our pretty <app><rdg wit="#MRM-OV">Harriet.</rdg><rdg wit="#MRM-LM">Harriet, the successor to Lucy's office, Lucy's favor, and more than Lucy's lovers.</rdg></app> I
                do not think she has ever repented of the exchange, though it might not perhaps have
                been made so soon, had not her elder sister, who had been long engaged to an
                attendant at one of the colleges of Oxford, thought herself on the point of marriage
@@ -404,7 +406,7 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                a sigh,”<pb n="289"/> and began to scold most manfully. She did still better. She
                recalled an old admirer, who in spite of repeated rejections had remained constant in
                his attachment, and made such good speed, that she was actually married the day
-               before her faithless lover, and is now the happy wife of a very respectable
+               before her faithless <app><rdg wit="#MRM-OV">lover, and is</rdg><rdg wit="#MRM-LM">lover; and she is</rdg></app> now the happy wife of a very respectable
                tradesman.</p>
             <p>Ah! the in-and-out cottage! the dear, dear home! No weddings there! No changes!
                except that the white kitten, who sits purring at the window under the great myrtle,
@@ -414,13 +416,13 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
             <p>Here is the new sign, the well-frequented Rose inn! Plenty of changes there! Our
                landlord is always improving, if it be only a pig-sty or a watering-trough—plenty of
                changes and one splendid wedding. Miss Phoebe is married, not to her old lover the
-               recruiting sergeant (for he had one wife already, probably more,) but to a
+               recruiting sergeant (for he had one wife already, probably <app><rdg wit="#MRM-OV">more,)</rdg><rdg wit="#MRM-LM">more),</rdg></app> but to a
                patten-maker, as errant a dandy as ever wore mustachios. How Phoebe could “abase her
                eyes” from the stately sergeant to this youth, half a foot shorter than herself,
                whose “waist would go into any alder-man’s thumb-ring,” might, if the final choice of
                a coquette had ever been matter of wonder, have occasioned some speculation. But our
-               patten-maker is a man of spirit; and the wedding was of extraordinary splen<pb
-                  n="290"/>dour. Three gigs, each containing four persons, graced the procession,
+               patten-maker is a man of spirit; and the wedding was of extraordinary <app><rdg wit="#MRM-OV">splen<pb
+                  n="290"/>dour</rdg><rdg wit="#MRM-LM">splendor</rdg></app>. Three gigs, each containing four persons, graced the procession,
                beside numerous carts and innumerable pedestrians. The bride was equipped in muslin
                and satin, and really looked very pretty with her black sparkling eyes, her clear
                brown complexion, her blushes and her smiles; the bride-maidens were only less smart
@@ -430,13 +432,13 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                was all manner of eating and drinking, with singing, fiddling, and dancing between;
                and in the evening, to crown all, there was Mr. Moon the conjuror. Think of that
                stroke of good fortune !—Mr. Moon, the very pearl of all conjurors, who had the
-               honour of puzzling and delighting their late Majesties with his “wonderful and
+               honour of puzzling and delighting their late <app><rdg wit="#MRM-OV">Majesties</rdg><rdg wit="#MRM-LM">majesties</rdg></app> with his “wonderful and
                pleasing exhibition of Thaumaturgics, Tachygraphy, mathematical operations, and
-               magical deceptions,” happened to arrive about an hour before dinner, and commenced
+               magical <app><rdg wit="#MRM-OV">deceptions,”</rdg><rdg wit="#MRM-LM">deceptions,</rdg></app> happened to arrive about an hour before dinner, and commenced
                his ingenious deceptions very unintentionally at our house. Calling to apply for
                permission to perform in the village, being equipped in a gay scarlet coat, and
                having something smart and sportsman-like in his appearance, he was announced by
-               Harriet as one of the gentlemen of the C. Hunt, and taken (mistaken I should have
+               Harriet as one of the gentlemen of the C. Hunt, and taken (<app><rdg wit="#MRM-OV">mistaken</rdg><rdg wit="#MRM-LM"><hi rend="italic">mis</hi>taken</rdg></app> I should have
                said) by the whole family for a certain captain<pb n="291"/> newly arrived in the
                neighbourhood. That misunderstanding, which must, I think, have retaliated on Mr.
                Moon a little of the puzzlement that he inflicts on others, vanished of course at the
@@ -445,7 +447,7 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                or more scared. All the tricks prospered. The cock crew after his head was cut off;
                and half-crowns and sovereigns flew about as if winged; the very wedding-ring could
                not escape Mr. Moon’s incantations. We heard of nothing else for a week. From the
-               bridegroom, un esprit fort, who defied all manner of conjuration and diablerie, down
+               bridegroom, <app><rdg wit="#MRM-OV">un esprit fort</rdg><rdg wit="#MRM-LM"><hi rend="italic">un esprit fort</hi></rdg></app>, who defied all manner of conjuration and <app><rdg wit="#MRM-OV">diablerie</rdg><rdg wit="#MRM-LM"><hi rend="italic">diablerie</hi></rdg></app>, down
                to my Lizzy, whose boundless faith swallows the Arabian Tales, all believed and
                trembled. So thoroughly were men, women, and children, impressed with the idea of the
                worthy conjuror’s dealings with the devil, that when he had occasion to go to B., not
@@ -461,12 +463,12 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                neighbours, and I have a presentiment that we shall find friends.</p>
             <p>Lizzy, you may now come along with me round the corner and up the lane, just to the
                end of the wheeler’s shop, and then we shall go home; it is high time. What is this
-               affiche in the parlour window ? “Apartments to let—inquire within.” These are
+               <app><rdg wit="#MRM-OV">affiche</rdg><rdg wit="#MRM-LM"><hi rend="italic">affiche</hi></rdg></app> in the parlour window ? “Apartments to let—inquire within.” These are
                certainly the curate’s lodgings—is he going away? Oh I suppose the new vicar will do
                his own duty—yet, however well he may do it, rich and poor will regret the departure
                of Mr. B. Well, I hope that he may soon get a good living. “Lodgings to let”—who ever
                thought of seeing such a placard hereabout? The lodgings, indeed, are very convenient
-               for a single gentleman, “a man and his wife, or two sisters,” as the newspapers
+               for a single gentleman, “a man and his wife, or two <app><rdg wit="#MRM-OV">sisters,”</rdg><rdg wit="#MRM-LM">sisters,</rdg></app> as the newspapers
                say—comfortable apartments, neat and tasty withal, with the addition of very civil
                treatment from the host and hostess. Lodgings to let in our village!</p>
             <p>THE END.<lb/>LONDON:<lb/>PRINTED BY R. GILBERT, ST. JOHN’S SQUARE.</p>
