@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng"
+type="application/xml" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitalmitford.github.io/DM_documentation/MitfordODD/out/mitfordODD.rng" 
+type="application/xml" 
+schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -91,67 +97,94 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
 
    </teiHeader>
    <text>
+      <front>
+         <div type="witness">
+            <listWit>
+               <witness xml:id="MRM-OV">Our Village: Sketches of Rural Character and Scenery</witness>
+               <witness xml:id="MRM-LM">The Lady's Magazine; or, Mirror of the Belles-Lettres,
+                  Fine Arts, Music, Drama, Fashions, &amp;c.</witness>
+            </listWit>
+         </div>
+      </front>
       <body>
          <div type="sketch">
             <pb n="273"/>
             <head>A PARTING GLANCE AT OUR
                VILLAGE.<!--ebb: If there’s a subtitle use an <lb/> element to separate -->
             </head>
-            <p>It is now eighteen months since our village first sat for its picture, and I cannot
-               say farewell to my courteous readers, without giving them some little intelligence of
-               our goings on, a sort of parting glance at us and our condition. In outward
-               appearance it hath, I suppose, undergone less alteration than any place of its inches
-               in the kingdom. There it stands, the same long straggling street of pretty cottages,
-               divided by pretty gardens, wholly unchanged in size or appearance, unincreased and
-               undiminished by a single brick. To be sure, yesterday evening a slight misfortune
-               happened to our goodly tenement, occasioned by the unlucky diligence mentioned in my
-               first notice, which, under the conduct of a sleepy coachman, and a restive horse,
-               contrived to knock down and demolish the wall of our court, and fairly to drive
-               through the front garden, thereby destroying sundry curious stocks, carnations, and
-               geraniums. It is a mercy that the unruly steed<pb n="274"/> was content with
-               battering the wall; for the messuage itself would come about our ears at the touch of
-               a finger, and really there is one little end-parlour, an after-thought of the
-               original builder, which stands so temptingly in the way, that I wonder the sagacious
-               quadruped missed it. There was quite din enough without that addition. The three
-               insides (ladies) squalling from the interior of that commodious vehicle; the outsides
-               (gentlemen) swearing on the roof; the coachman, still half asleep, but unconsciously
-               blowing his horn; we in the house screaming and scolding; the passers-by shouting and
-               hallooing; and May, who little brooked such an invasion of her territories, barking
-               in her tremendous lion-note, and putting down the other noises like a clap of
-               thunder. But passengers, coachman, horses, and spectators, all righted at last; and
-               there is no harm done but to my flowers and to the wall. May, however, stands
-               bewailing the ruins, for that low wall was her favourite haunt; she used to parade
-               backwards and forwards on the top of it, as if to show herself, just after the manner
-               of a peacock on the top of a house; and would sit or lie for hours on the corner next
-               the gate, basking in the sunshine like a marble statue. Really she has quite the air
-               of one who laments the destruction of personal property; but the wall is to be
-               rebuilt to-morrow, with old weather-stained bricks—no patch-work! and<pb n="275"/>
-               exactly in the same form; May herself will not find the difference; so that in the
-               way of alteration this little misfortune will pass for nothing. Neither have we any
-               improvements worth calling such. Except that the wheeler’s green door hath been
-               retouched, out of the same pot (as I judge from the tint) with which he furbished up
-               our new-old pony-chaise; that the shop-window of our neighbour, the universal dealer,
-               hath been beautified, and his name and calling splendidly set forth in yellow letters
-               on a black ground; and that our landlord of the Rose hath hoisted a new sign of
-               unparalleled splendour; one side consisting of a full-faced damask rose, of the size
-               and hue of a piony, the other of a maiden blush in profile, which looks exactly like
-               a carnation, so that both flowers are considerably indebted to the modesty of the
-               “out-of-door artist,” who has warily written The Rose under each;—except these
-               trifling ornaments, which nothing but the jealous eye of a lover could detect, the
-               dear place is altogether unchanged.</p>
+            <p><app>
+                  <rdg wit="#MRM-LM">When I get acquainted with people, whether in a printed book,
+                     or in that huge and multifarious volume the world, I like to hear how they go
+                     on. Perhaps the courteous readers of the Lady's Magazine may have the same
+                     laudable desire of knowledge--curiosity some wicked wights are apt to call it,
+                     and let them--really there is no objection to the phrase; we will speak it out
+                     manfully ourselves. Many may have the same friendly curiousity, and would have
+                     no objection to hear tiding of our village;--that village which had the honor
+                     to be introduced to their notice near the close of the last year, and of whose
+                     denizens, one or two of them at least, little glimpses of intelligence have
+                     since occasionally peeped out. Lizzy and Mayflower, though very pretty things
+                     in their way, are not the only villagers worth talking about--at least I think
+                     so; but we shall see</rdg>
+                  <rdg wit="#MRM-OV"/>
+               </app></p>
+            <p><app>
+                  <rdg wit="#MRM-OV">It is now eighteen months since our village first sat for
+                     its picture, and I cannot say farewell to my courteous readers, without giving
+                     them some little intelligence of our goings on, a sort of parting glance at us
+                     and our condition.</rdg>
+                  <rdg wit="#MRM-LM"/>
+               </app> In outward appearance <app><rdg wit="#MRM-OV">it</rdg><rdg wit="#MRM-LM">our village</rdg></app> hath, I suppose, undergone less alteration <app><rdg wit="#MRM-LM">since my last notice,</rdg><rdg wit="#MRM-OV"/></app> than any
+               place of its inches in the kingdom. There it stands, the same long straggling street
+               of pretty <app><rdg wit="#MRM-OV">cottages,</rdg><rdg wit="#MRM-LM">cottages</rdg></app> divided by pretty gardens, wholly unchanged in size or
+               appearance, unincreased and undiminished by a single brick. To be sure, yesterday
+               evening a slight misfortune happened to our goodly tenement, occasioned by the
+               unlucky diligence mentioned in my <app><rdg wit="#MRM-OV">first notice,</rdg><rdg wit="#MRM-LM">last,</rdg></app> which, under the conduct of a sleepy
+               <app><rdg wit="#MRM-OV">coachman,</rdg><rdg wit="#MRM-LM">coachman</rdg></app> and a restive horse, contrived to knock down and demolish the wall of our
+               court, and fairly to drive through the front garden, thereby destroying sundry
+               curious stocks, carnations, and geraniums. It is a mercy that the unruly steed<pb
+                  n="274"/> was content with battering the wall; for the messuage itself would come
+               about our ears at the touch of a finger, and really there is one little end-parlour,
+               an after-thought of the original builder, which stands so temptingly in the way, that
+               I wonder the sagacious quadruped missed it. There was quite din enough without that
+               addition. The three insides (ladies) squalling from the interior of that commodious
+               vehicle; the outsides (gentlemen) swearing on the roof; the coachman, still half
+               asleep, but unconsciously blowing his horn; we in the house screaming and scolding;
+               the passers-by shouting and hallooing; and May, who little brooked such an invasion
+               of her territories, barking in her tremendous lion-note, and putting down the other
+               noises like a clap of thunder. But passengers, coachman, horses, and spectators, all
+               righted at last; and there is no harm done but to my flowers and to the wall. May,
+               however, stands bewailing the ruins, for that low wall was her favourite haunt; she
+               used to parade backwards and forwards on the top of it, as if to show herself, just
+               after the manner of a peacock on the top of a house; and would sit or lie for hours
+               on the corner next the gate, basking in the sunshine like a marble statue. Really she
+               has quite the air of one who laments the destruction of personal property; but the
+               wall is to be rebuilt to-morrow, with old weather-stained bricks—no <app><rdg wit="#MRM-OV">patch-work</rdg><rdg wit="#MRM-LM">patchwork</rdg></app>!
+                  and<pb n="275"/> exactly in the same form; May herself will not find the
+               difference; so that in the way of alteration this little misfortune will pass for
+               nothing. Neither have we any improvements worth calling such. Except that the
+               wheeler’s green door hath been retouched, out of the same pot (as I judge from the
+               tint) with which he furbished up our new-old pony-chaise; that the shop-window of our
+               neighbour, the universal dealer, hath been beautified, and his name and <app><rdg wit="#MRM-OV">calling</rdg><rdg wit="#MRM-LM">callings</rdg></app>
+               splendidly set forth in yellow letters on a black ground; and that our landlord of
+               the Rose hath hoisted a new sign of unparalleled splendour; one side consisting of a
+               full-faced damask <app><rdg wit="#MRM-LM">rose,</rdg><rdg wit="#MRM-LM">rose</rdg></app> of the size and hue of a piony, the other of a <app><rdg wit="#MRM-OV">maiden blush</rdg><rdg wit="#MRM-LM">maiden-blush</rdg></app>
+               in profile, which looks exactly like a carnation, so that both flowers are
+               considerably indebted to the modesty of the “out-of-door artist,” who has warily
+               written The Rose under each;—except these trifling ornaments, which nothing but the
+               jealous eye of a lover could detect, the dear place is altogether unchanged.</p>
             <p>The only real improvement with which we have been visited for our sins—(I hate all
-               innovation, whether for better or worse, as if I was a furious Tory, or a woman of
+               <app><rdg wit="#MRM-OV">innovation,</rdg><rdg wit="#MRM-LM">innovation</rdg></app> whether for better or worse, as if I was a furious Tory, or a woman of
                three-score and ten)—the only misfortune of that sort which has befallen us, is under
                foot. The road has been adjusted on the plan of Mr. Mac-Adam; and a tremendous
-               operation it is. I do<pb n="276"/> not know what good may ensue; but for the last six
+               operation it is. I do<pb n="276"/> not know what good may ensue; <app><rdg wit="#MRM-OV">but</rdg><rdg wit="#MRM-LM">but,</rdg></app> for the last six
                months, some part or other of the highway has been impassable for any feet, except
                such as are shod by the blacksmith; and even the four-footed people who wear iron
-               shoes, make wry faces, poor things! at those stones, enemies to man and beast.
+               <app><rdg wit="#MRM-OV">shoes,</rdg><rdg wit="#MRM-LM">shoes</rdg></app> make wry faces, poor things! at those stones, enemies to man and beast.
                However, the business is nearly done now; we are covered with sharp flints every inch
                of us, except a “bad step” up the hill, which, indeed, looks like a bit cut out of
                the deserts of Arabia, fitter for camels and caravans than for Christian horses and
-               coaches; a point which in spite of my dislike of alteration I was forced to
-               acknowledge to our surveyor, a portly gentleman, who, in a smart gig drawn by a
+               coaches; <app><rdg wit="#MRM-OV">a point which in spite of my dislike of alteration I was forced to
+               acknowledge to our surveyor</rdg> <rdg wit="#MRM-LM">a point which was acknowledged even by our surveyor</rdg></app>, a portly gentleman, who, in a smart gig drawn by a
                prancing steed, was kicking up a prodigious dust at that very moment. He and I ought
                to be great enemies; for, besides the Mac-Adamite enormity of the stony road, he hath
                actually been guilty of tree-murder, having been an accessory before the fact in the
@@ -159,33 +192,33 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                on earth except shading the path! I never should have for- given that offence, had
                not their removal, by opening a beautiful view from the village up the hill,
                reconciled even my tree-loving eye to their abstraction. And, to say the truth,
-               though we have had twenty little squabbles there is no bearing malice with our
+               though we have had twenty little <app><rdg wit="#MRM-OV">squabbles</rdg><rdg wit="#MRM-LM">squabbles,</rdg></app> there is no bearing malice with our
                surveyor; he is so civil and good-humoured, has such a bustling and happy
                self-importance, such<pb n="277"/> an honest earnestness in his vocation (which is
                gratuitous by the bye), and such an intense conviction that the state of the
-               turnpike-road between B. and K., is the principal affair of this life, that I would
+               turnpike-road between B. and <app><rdg wit="#MRM-OV">K.,</rdg><rdg wit="#MRM-LM">K.</rdg></app> is the principal affair of this life, that I would
                not undeceive him for more worlds than one ever has to give. How often have I seen
                him on a cold winter morning, with a face all frost and business, great-coated up to
-               the eyes, driving from post to post, from one gang of labourers to another, praising,
+               the eyes, driving from post to post, from one gang of <app><rdg wit="#MRM-OV">labourers</rdg><rdg wit="#MRM-LM">laborers</rdg></app> to another, praising,
                scolding, ordering, cheated, laughed at, and liked by them all! Well, when once the
                hill is finished, we shall have done with him for ever, as he used to tell me by way
                of consolation, when I shook my head at him, as he went jolting along over his dear
-               new roads, at the imminent risk of his springs and his bones; we shall see no more of
+               new <app><rdg wit="#MRM-OV">roads,</rdg><rdg wit="#MRM-LM">roads</rdg></app> at the imminent risk of his springs and his bones; we shall see no more of
                him; for the Mac-Adam ways are warranted not to wear out. So be it; I never wish to
-               see a roadmender again.</p>
+               see a <app><rdg wit="#MRM-OV">roadmender</rdg><rdg wit="#MRM-LM">road-mender</rdg></app> again.</p>
             <p>But if the form of outward things be all unchanged around us, if the dwellings of man
                remain the same to the sight and the touch, the little world within hath undergone
-               its usual mutations;—the hive is the same, but of the bees some are dead and some are
+               its usual mutations;—the hive is the <app><rdg wit="#MRM-OV">same,</rdg><rdg wit="#MRM-LM">same;</rdg></app> but of the bees some are dead and some are
                flown away, and some that we left babes and sucklings, insects in the shell, are
                already putting forth their young wings. Children in our village really sprout up
                like mushrooms; the air is so promotive of growth, that<pb n="278"/> the rogues
-               spring into men and women, as if touched by Harlequin’s wand, and are quite offended
+               <app><rdg wit="#MRM-OV">spring</rdg><rdg wit="#MRM-LM">spring up</rdg></app> into men and women, as if touched by Harlequin’s wand, and are quite offended
                if one happens to say or do any thing which has a reference to their previous
-               condition. My father grievously affronted Sally L., only yesterday, by bestowing upon
-               her a great lump of gingerbread, with which he had stuffed his pockets at a fair. She
+               condition. My father grievously affronted Sally L.<app><rdg wit="#MRM-OV">, only yesterday,</rdg><rdg wit="#MRM-LM"/></app> by bestowing upon
+               her a great lump of <app><rdg wit="#MRM-OV">gingerbread,</rdg><rdg wit="#MRM-LM">gingerbread</rdg></app> with which he had stuffed his pockets at a fair. She
                immediately, as she said, gave it to “the children.” Now Sally cannot be above twelve
                to my certain knowledge, though taller than I am. Lizzy herself is growing womanly. I
-               actually caught that little lady stuck on a chest of drawers, contemplating herself
+               actually caught that little <app><rdg wit="#MRM-OV">lady</rdg><rdg wit="#MRM-LM">gentlewoman</rdg></app> stuck on a chest of drawers, contemplating herself
                in the glass, and striving with all her might to gather the rich curls that hang
                about her neck, and turn them under a comb. Well! If Sally and Lizzy live to be old
                maids, they may probably make the amende honorable to time, and wish to be thought
@@ -193,21 +226,21 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
             <p>The first cottage is that of Mr. H. the patriot, the illuminator, the independent and
                sturdy yet friendly member of our little state, who, stout and comely, with a
                handsome chaise-cart, a strong mare, and a neat garden, might have passed for a
-               portrait of that enviable class of Englishmen, who, after a youth of frugal industry,
+               portrait of that enviable class of <app><rdg wit="#MRM-OV">Englishmen,</rdg><rdg wit="#MRM-LM">Englishmen</rdg></app> who, after a youth of frugal industry,
                sit down in some retired place to “live upon their means.” He and his wife seemed the
-               happiest couple on earth; except a little too mnch<pb n="279"/> leisure, I never
-               suspected that they had one trouble or one care. But Care, the witch, will come
-               everywhere, even to that happiest station, and this prettiest place. She came in one
+               happiest couple on earth; except a little too much<pb n="279"/> leisure, I never
+               suspected that they had one trouble or one care. But <app><rdg wit="#MRM-OV">Care</rdg><rdg wit="#MRM-LM">care</rdg></app>, the witch, will come
+               <app><rdg wit="#MRM-OV">everywhere</rdg><rdg wit="#MRM-LM">every where</rdg></app>, even to that happiest <app><rdg wit="#MRM-OV">station,</rdg><rdg wit="#MRM-LM">station</rdg></app> and this prettiest place. She came in one
                of her most terrific forms—blindness—or (which is perhaps still more tremendous) the
                faint glimmering light and gradual darkness which precede the total eclipse. For a
                long time we had missed the pleasant bustling officiousness, the little services, the
-               voluntary tasks, which our good neighbour loved so well. Fruit trees were blighted,
+               voluntary tasks, which our good neighbour loved so well. <app><rdg wit="#MRM-OV">Fruit trees</rdg><rdg wit="#MRM-LM">Fruit-trees</rdg></app> were blighted,
                and escaped his grand specific, fumigation; wasps multiplied, and their nests
-               remained untraced; theicheerful modest knock with which, just at the very hour when
+               remained untraced; the cheerful modest knock with which, just at the very hour when
                he knew it could be spared, he presented himself to ask for the newspaper, was heard
                no more; he no longer hung over his gate to way-lay passengers, and entice them into
                chat; at last he even left off driving his little chaise, and was only seen moping up
-               and down the garden-walk, or stealing gropingly from the wood-pile to the house. He
+               and down the <app><rdg wit="#MRM-OV">garden-walk</rdg><rdg wit="#MRM-LM">garden walk</rdg></app>, or stealing gropingly from the <app><rdg wit="#MRM-OV">wood-pile</rdg><rdg wit="#MRM-LM">woodpile</rdg></app> to the house. He
                evidently shunned conversation or questions, forbade his wife to tell what ailed him,
                and even when he put a green shade over his darkened eyes, fled from human sympathy
                with a stern pride that seemed almost ashamed of the humbling infirmity. That strange
@@ -215,16 +248,16 @@ Please use the 1824 NCCO PDF (saved in OV folder in Box) to check and correct th
                disease increased hourly, and he became depen<pb n="280"/>dent on his excellent wife
                for every comfort and relief. She had many willing assistants in her labour of love;
                all his neighbours strove to return, according to their several means, the kindness
-               which all had received from him in some shape or other. The country boys, to whose
+               which all had received from him in some shape or other. The country <app><rdg wit="#MRM-OV">boys,</rdg><rdg wit="#MRM-LM">boys</rdg></app> to whose
                service he had devoted so much time, in shaping bats, constructing bows and arrows,
                and other quips and trickeries of the same nature, vied with each other in performing
                little offices about the yard and stable; and John Evans, the half-witted gardener,
                to whom he had been a constant friend, repaid his goodness by the most unwearied
                attention. Gratitude even seemed to sharpen poor John’s perception and faculties.
-               There is an old man in our parish work-house, who occasionally walks through the
+               There is an <app><rdg wit="#MRM-OV">old man</rdg><rdg wit="#MRM-LM">old blind man</rdg></app> in our parish work-house, who occasionally walks through the
                street, led by a little boy holding the end of a long stick. The idea of this man,
                who had lived in utter blindness for thirty years, was always singularly distressing
-               to Mr. H. I shall never forget the address with which our simple gardener usedto try
+               to Mr. H.<!-- 2020-02-28 amp: Left off here for the night--> I shall never forget the address with which our simple gardener used to try
                to divert his attention from this miserable fellow-sufferer. He would get between
                them to prevent the possibility of recognition by the dim and uncertain vision; would
                talk loudly to drown the peculiar noise, the sort of duet of feet, caused by the
