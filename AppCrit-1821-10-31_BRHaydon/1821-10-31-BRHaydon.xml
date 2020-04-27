@@ -142,112 +142,99 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </dateline>
                <salute>My dear Sir</salute>
             </opener>
-            <p>The magnificent portion of bride cake arrived this morning &amp; shall be distributed
-               as you desire. Yes, we will set half the pretty girls in the parish dreaming on it--I
-               wanted to make a bargain with one<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> to whom I gave a bit just now<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> that she should tell me her dream--but she says that would destroy the charm<app>
-                  <rdg wit="#LEst1870">.</rdg>
+            <p>The magnificent portion of <app><rdg wit="#digMitTeam">bride cake</rdg><rdg wit="#LEst1870">bride-cake</rdg></app> arrived this morning &amp; shall be distributed
+               as you desire. Yes, we will set half the pretty girls in the parish dreaming on <app><rdg wit="#digMitTeam">it--</rdg><rdg wit="#LEst1870">it. </rdg></app>I
+               wanted to make a bargain with <app>
+                  <rdg wit="#LEst1870">one,</rdg><rdg wit="#digMitTeam">one</rdg>
+               </app> to whom I gave a bit just <app>
+                  <rdg wit="#LEst1870">now,</rdg><rdg wit="#digMitTeam">now</rdg>
+               </app> that she should tell me her <app><rdg wit="#digMitTeam">dream--but</rdg><rdg wit="#LEst1870">dream. But</rdg></app> she says that would destroy the <app>
+                  <rdg wit="#digMitTeam">charm--</rdg><rdg wit="#LEst1870">charm.</rdg>
                </app>
                <app>
                   <rdg wit="#digMitTeam">--If she told who the husband was to be she should never <del
-                        rend="squiggles"><gap quantity="1" unit="word"/></del> get him.</rdg>
-               </app> There was no saying a word after that<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> you know. By<app>
-                  <rdg wit="#LEst1870">-</rdg>
-               </app>the<app>
-                  <rdg wit="#LEst1870">-</rdg>
-               </app>bye<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> nothing but the sort of sacred air that breathes around Bridecake<app>
+                        rend="squiggles"><gap quantity="1" unit="word"/></del> get him.</rdg><rdg wit="#LEst1870"/>
+               </app> There was no saying a word after <app>
+                  <rdg wit="#digMitTeam">that</rdg><rdg wit="#LEst1870">that,</rdg>
+               </app> you know. <app><rdg wit="#LEst1870">By-the-by,</rdg><rdg wit="#digMitTeam">By the bye</rdg>
+               </app> nothing but the sort of sacred air that breathes around <app><rdg wit="#digMitTeam">Bridecake</rdg><rdg wit="#LEst1870">bride-cake</rdg></app><app>
                   <rdg wit="#digMitTeam">--so that to steal that would be to invade the sweetest &amp;
                      holiest of our affections &amp; sympathies--nothing but this fine &amp; general
-                     feeling</rdg>
-               </app> could have preserved your munificent present<app>
-                  <rdg wit="#digMitTeam">, </rdg>
-               </app> &amp; brought it safe to us. By some accident it was sent<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> not by a <placeName ref="#Reading_city">Reading</placeName><app>
-                  <rdg wit="#LEst1870">,</rdg>
+                     feeling</rdg><rdg wit="#LEst1870"/>
+               </app> could have preserved your munificent <app>
+                  <rdg wit="#digMitTeam">present,</rdg><rdg wit="#LEst1870">present</rdg>
+               </app> &amp; brought it safe to us. By some accident it was <app>
+                  <rdg wit="#LEst1870">sent,</rdg><rdg wit="#digMitTeam">sent</rdg>
+               </app> not by a <app>
+                  <rdg wit="#LEst1870"><placeName ref="#Reading_city">Reading</placeName>,</rdg><rdg wit="#digMitTeam"><placeName ref="#Reading_city">Reading</placeName></rdg>
                </app><app>
-                  <rdg wit="#digMitTeam"> Coach</rdg>
+                  <rdg wit="#digMitTeam"> Coach</rdg><rdg wit="#LEst1870"/>
                </app> but a <placeName ref="#Newbury">Newbury</placeName>
                <app>
-                  <rdg wit="#LEst1870"> coach</rdg>
-               </app><app>
-                  <rdg wit="#digMitTeam"> one</rdg>
+                  <rdg wit="#LEst1870"> coach</rdg><rdg wit="#digMitTeam"> one</rdg>
                </app>, &amp; found its way to <placeName ref="#ThreeMileCross">Three Mile
                   Cross</placeName>, after being carried half way to <placeName ref="#Newbury"
                   >Newbury</placeName>, through the intervention of all manner of men &amp;
-               women--Post boys--&amp; Chambermaids &amp; keepers of Turnpike gates. But every thing
-               belonging to such a <rs type="event" ref="#HaydonHymanWed">Wedding</rs> &amp; such a
-               Honeymoon as yours will turn out right<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> depend on it. You see that your good luck extends even to your friends--&amp;
-               travels about with your bride-cake. Oh<app>
-                  <rdg wit="#LEst1870">! </rdg>
+               <app><rdg wit="#digMitTeam">women--Post boys--</rdg><rdg wit="#LEst1870">women, post-boys, </rdg></app>&amp; <app><rdg wit="#digMitTeam">Chambermaids</rdg><rdg wit="#LEst1870">chambermaids,</rdg></app> &amp; keepers of <app><rdg wit="#digMitTeam">Turnpike</rdg><rdg wit="#LEst1870">turnpike</rdg></app> gates. But every thing
+               belonging to such a <app><rdg wit="#digMitTeam"><rs type="event" ref="#HaydonHymanWed">Wedding</rs></rdg><rdg wit="#LEst1870"><rs type="event" ref="#HaydonHymanWed">wedding</rs></rdg></app> &amp; such a
+               <app><rdg wit="#digMitTeam">Honeymoon</rdg><rdg wit="#LEst1870">honeymoon</rdg></app> as yours will turn out <app>
+                  <rdg wit="#LEst1870">right,</rdg><rdg wit="#digMitTeam">right</rdg>
+               </app> depend on it. You see that your good luck extends even to your <app><rdg wit="#digMitTeam">friends--</rdg><rdg wit="#LEst1870">friends, </rdg></app>&amp;
+               travels about with your bride-cake. <app>
+                  <rdg wit="#LEst1870">Oh!</rdg><rdg wit="#digMitTeam">Oh</rdg>
                </app> it will never forsake you<app>
                   <rdg wit="#LEst1870">, never</rdg>
                </app><app>
                   <rdg wit="#digMitTeam">! Never</rdg>
-               </app>! I think that last honeymoon letter<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> written whilst the fair Bride was sitting<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> working<app>
-                  <rdg wit="#LEst1870">,</rdg>
+               </app>! I think that last honeymoon <app>
+                  <rdg wit="#LEst1870">letter,</rdg><rdg wit="#digMitTeam">letter</rdg>
+               </app> written whilst the fair <app><rdg wit="#digMitTeam">Bride</rdg><rdg wit="#LEst1870">bride</rdg></app> was <app>
+                  <rdg wit="#LEst1870">sitting,</rdg><rdg wit="#digMitTeam">sitting</rdg>
+               </app> <app>
+                  <rdg wit="#LEst1870">working,</rdg><rdg wit="#digMitTeam">working</rdg>
                </app> &amp; smiling at your side, was prettier even than the first. Did you read it
-               to her as you wrote it? or <pb n="2"/> shall I send her a copy? It was worthy even of
-               that charming seal. How much you must both have felt in going into your painting room<app>
-                  <rdg wit="#LEst1870">.</rdg>
+               to her as you wrote it? <app><rdg wit="#digMitTeam">or</rdg><rdg wit="#LEst1870">Or</rdg></app> <pb n="2"/> shall I send her a copy? It was worthy even of
+               that charming seal. How much you must both have felt in going into your <app>
+                  <rdg wit="#LEst1870">painting room.</rdg>
                </app><app>
-                  <rdg wit="#digMitTeam">!--</rdg>
-               </app> Will <title corresp="#Lazarus_Haydon">the Lazarus</title> be finished against next
-               season? If any thing could improve your genius<app>
-                  <rdg wit="#LEst1870">,</rdg>
+                  <rdg wit="#digMitTeam">painting room!--</rdg>
+               </app> Will <app><rdg wit="#digMitTeam"><title corresp="#Lazarus_Haydon">the Lazarus</title></rdg><rdg wit="#LEst1870"><title corresp="#Lazarus_Haydon">the <q>Lazarus</q></title></rdg></app> be finished against next
+               season? If any thing could improve your <app>
+                  <rdg wit="#LEst1870">genius,</rdg><rdg wit="#digMitTeam">genius</rdg>
                </app> it would be living in such a sunshine of love &amp; beauty.</p>
             <p><persName ref="#James_Miss">Miss James</persName> is<app>
                   <rdg wit="#digMitTeam"> very anxious to have the pleasure of being known to <persName
                         ref="#Haydon_Mrs">Mrs. Haydon</persName>--She mentioned your note with great
                      delight, &amp; talked of calling--but was not I suppose certain of the time you
                      would return to <placeName ref="#Lisson_Grove">Lisson
-                           Grove</placeName>. She is</rdg>
+                           Grove</placeName>. She is</rdg><rdg wit="#LEst1870"/>
                </app> by this time back again at <placeName ref="#Richmond">Richmond</placeName>. I
-               wished her very much to call on you Sunday or Monday<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> that she might leave with you my poor <title ref="#Foscari_MRMplay">Tragedy</title><app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> which I <app>
-                  <rdg wit="#digMitTeam">have</rdg>
-               </app> should<app>
-                  <rdg wit="#LEst1870">,</rdg>
-               </app> of all things<app>
-                  <rdg wit="#LEst1870">, </rdg>
+               wished her very much to call on you <app><rdg wit="#digMitTeam"/><rdg wit="#LEst1870">last </rdg></app>Sunday or <app>
+                  <rdg wit="#LEst1870">Monday,</rdg><rdg wit="#digMitTeam">Monday</rdg>
+               </app> that she might leave with you my poor <app><rdg wit="#digMitTeam"><title ref="#Foscari_MRMplay">Tragedy,</title></rdg><rdg wit="#LEst1870"><title ref="#Foscari_MRMplay">tragedy</title></rdg></app> which I <app>
+                  <rdg wit="#digMitTeam">have</rdg><rdg wit="#LEst1870"/>
+               </app> <app>
+                  <rdg wit="#LEst1870">should,</rdg><rdg wit="#digMitTeam">should</rdg>
+               </app> of all <app>
+                  <rdg wit="#LEst1870">things,</rdg><rdg wit="#digMitTeam">things</rdg>
                </app> have <app>
                   <rdg wit="#LEst1870">liked</rdg>
-               </app><app>
                   <rdg wit="#digMitTeam">wished </rdg>
-               </app> you to read<app>
-                  <rdg wit="#LEst1870">,</rdg>
+               </app> you to <app>
+                  <rdg wit="#LEst1870">read,</rdg><rdg wit="#digMitTeam">read</rdg>
                </app><app>
-                  <rdg wit="#digMitTeam">--indeed I begged her to take the chance--</rdg>
+                  <rdg wit="#digMitTeam">--indeed I begged her to take the chance--</rdg><rdg wit="#LEst1870"/>
                </app>I have such an opinion of your judgment. But it is now out of her hands. Only
-               think of my shocking ill luck in having written on the same subject with <persName
-                  ref="#Byron">Lord Byron</persName>--The story of <persName ref="#Foscari_Fr">Foscari</persName><app>
-                  <rdg wit="#LEst1870">!</rdg>
-               </app><app>
-                  <rdg wit="#digMitTeam">--</rdg>
-               </app>I am so distressed at <rs type="person" ref="#Byron">the idea of a competition,
-                  not merely with his Lordship's talents, but with his great name, &amp; the strange
-                  awe in which he holds people, &amp; the terrible scoffs &amp; sneers in which he
+               think of my shocking ill luck in having written on the same subject with <app><rdg wit="#digMitTeam"><persName
+                  ref="#Byron">Lord Byron</persName>--The story of <persName ref="#Foscari_Fr">Foscari</persName>--</rdg><rdg wit="#LEst1870"><persName ref="#Byron">Lord Byron</persName>! The story of <persName ref="#Foscari_Fr">Foscari</persName>!</rdg></app>
+               I am so distressed at <rs type="person" ref="#Byron">the idea of a competition,
+                  not merely with his <app><rdg wit="#digMitTeam">Lordship's</rdg><rdg wit="#LEst1870">lordship's</rdg></app> talents, but with his great <app><rdg wit="#digMitTeam">name,</rdg><rdg wit="#LEst1870">name;</rdg></app> &amp; the strange
+                  awe in which he holds <app><rdg wit="#digMitTeam">people,</rdg><rdg wit="#LEst1870">people;</rdg></app> &amp; the terrible scoffs &amp; sneers in which he
                   indulges himself</rs>, that I have written to <persName ref="#Talfourd_Thos">Mr.
                   Talfourd</persName> requesting him to consult another <del rend="squiggles"><gap
                      quantity="1" unit="word"/></del> friend on the propriety of entirely
-               suppressing my play, which had gone to <placeName ref="#London_city">Town</placeName>
-               to be presented to <persName ref="#Macready_Wm">the Manager</persName> the very day
+               suppressing my play, which had gone to <app><rdg wit="#digMitTeam"><placeName ref="#London_city">Town</placeName></rdg><rdg wit="#LEst1870"><placeName ref="#London_city">town</placeName></rdg></app>
+               to be presented to <app><rdg wit="#digMitTeam"><persName ref="#Macready_Wm">the Manager</persName></rdg><rdg wit="#LEst1870"><persName ref="#Macready_Wm">the manager</persName></rdg></app> the very day
                that the subject of <rs type="title" ref="#The_Two_Foscari">Lord Byron's</rs> was
                   announced.<note resp="#ebb"><rs type="title" ref="#The_Two_Foscari">Lord Byron's
                      play</rs> was published by John Murray on <date when="1821-12-19">19 December
@@ -255,8 +242,8 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      to="1821-07-09">12 June and 9 July 1821</date> in <placeName ref="#Ravenna"
                      >Ravenna</placeName>.<!--ebb: Give more details: We need to determine the date that Byron's volume was announced, presumably in October.--></note>
                I rather think now that it will not be offered--that <persName ref="#Talfourd_Thos"
-                  >Mr. Talfourd</persName> will suppress it--&amp; I heartily wish he may. <app>
-                  <rdg wit="#digMitTeam">
+                  >Mr. Talfourd</persName> will suppress <app><rdg wit="#digMitTeam">it--</rdg><rdg wit="#LEst1870">it; </rdg></app>&amp; I heartily wish he may. 
+               <app><rdg wit="#digMitTeam">
                      <!-- App Lemma start: what follows is missing from L'Estrange -->My poor
                      <title ref="#Foscari_MRMplay">Tragedy</title> has been a work of great labour &amp; is certainly complete enough in
                      its own small way, but it is abundantly womanish &amp; feeble, &amp; does not
@@ -270,41 +257,41 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      sentiment--He will certainly succeed in that. If this play
                      <!-- App Lemma concludes. L'Estrange reads: If it be sent back... --></rdg>
                   <rdg wit="#LEst1870">If it</rdg>
-               </app>be sent back to me unoffered<app>
-                  <rdg wit="#LEst1870">,</rdg>
+               </app>be sent back to me <app>
+                  <rdg wit="#LEst1870">unoffered,</rdg><rdg wit="#digMitTeam">unoffered</rdg>
                </app> I shall immediately begin another <app>
-                  <rdg wit="#LEst1870">play</rdg>
-               </app> on some German story<app>
-                  <rdg wit="#LEst1870">, </rdg>
-               </app>&amp; shall take for the opening the exquisite first act of the <title
-                  ref="#Orestes_play">Orestes</title> of <persName ref="#Euripides">Euripides</persName><app>
+                  <rdg wit="#LEst1870">play</rdg><rdg wit="#digMitTeam"/>
+               </app> on some German <app>
+                  <rdg wit="#LEst1870">story, </rdg><rdg wit="#digMitTeam">story </rdg>
+               </app>&amp; shall take for the opening the exquisite first act of the <app><rdg wit="#digMitTeam"><title
+                  ref="#Orestes_play">Orestes</title></rdg><rdg wit="#LEst1870"><title
+                     ref="#Orestes_play"><q>Orestes</q></title></rdg></app> of <persName ref="#Euripides">Euripides</persName><app>
                   <rdg wit="#digMitTeam">--which I saw acted so finely a fortnight ago, &amp; which it is
                      quite wonderful to think has never been transferred to the English stage.</rdg>
                   <rdg wit="#LEst1870">.</rdg>
                </app> What astonishing people those Greek dramatists were! I am just now reading
-                  <persName ref="#Potter_R">Potter</persName>'s <title ref="#Aeschylus_Potter"
-                  >Aeschylus</title> with the intensity of admiration with which you <damage
+                  <persName ref="#Potter_R">Potter</persName>'s <app><rdg wit="#digMitTeam"><title ref="#Aeschylus_Potter"
+                     >Aeschylus</title></rdg><rdg wit="#LEst1870"><q><title ref="#Aeschylus_Potter"
+                        >Aeschylus</title></q></rdg></app> with the intensity of admiration with which you <damage
                   type="portion_of_seal"/> would look at the frescoes of <persName
-                  ref="#Michelangelo">Michael Angelo</persName>
-               <app>
+                  ref="#Michelangelo">Michael Angelo</persName><app>
                   <rdg wit="#digMitTeam"><del type="crossout">&amp;</del></rdg>
                   <rdg wit="#LEst1870">.</rdg>
                </app> Happening to express something of this enthusiasm to a scholar of very great
-               name he answered--"<title ref="#Prom_Chained">The Prometheus</title>? Yes <app>
-                     <rdg wit="#LEst1870">,</rdg>
+               <app><rdg wit="#digMitTeam">name</rdg><rdg wit="#LEst1870">name,</rdg></app> he <app><rdg wit="#digMitTeam">answered--</rdg><rdg wit="#LEst1870">answered, </rdg></app>"<title ref="#Prom_Chained">The Prometheus</title>? <app>
+                  <rdg wit="#LEst1870">Yes,</rdg><rdg wit="#digMitTeam">Yes</rdg>
                </app> <title ref="#Prom_Chained">the Prometheus</title> is rather pretty--prettyish-- one of the
-               prettiest!" Now what business has <persName ref="#Potter_R">this man
-               </persName> to know Greek<app>
-                  <rdg wit="#LEst1870">?</rdg>
-               </app><app>
-                  <rdg wit="#digMitTeam">!</rdg>
-               </app> And what business have I to be intruding so long on you?--Good bye my dear Sir<app>
-                  <rdg wit="#LEst1870">.</rdg>
-               </app> My <persName ref="#Mitford_Geo">Father</persName> &amp; <persName ref="#Russell_M">Mother</persName> join <app>
+               <app><rdg wit="#digMitTeam">prettiest!</rdg><rdg wit="#LEst1870">prettiest.</rdg></app>" Now what business has <persName ref="#Potter_R">this man
+               </persName> to know <app>
+                  <rdg wit="#LEst1870">Greek?</rdg>
+                  <rdg wit="#digMitTeam">Greek!</rdg>
+               </app> And what business have I to be intruding so long on <app><rdg wit="#digMitTeam">you?--</rdg><rdg wit="#LEst1870">you? </rdg></app><app><rdg wit="#digMitTeam">Good bye</rdg><rdg wit="#LEst1870">Good-by,</rdg></app> my dear <app>
+                  <rdg wit="#LEst1870">Sir.</rdg><rdg wit="#digMitTeam">Sir</rdg>
+               </app> My <app><rdg wit="#digMitTeam"><persName ref="#Mitford_Geo">Father</persName> &amp; <persName ref="#Russell_M">Mother</persName></rdg><rdg wit="#LEst1870"><persName ref="#Mitford_Geo">father</persName> &amp; <persName ref="#Russell_M">mother</persName></rdg></app> join <app>
                   <rdg wit="#digMitTeam"><add place="above">
                         <metamark place="below" function="insertion" rend="carat"/>me</add></rdg>
                   <rdg wit="#LEst1870">me</rdg>
-               </app> in every kind remembrance &amp; kinder wish to you &amp; to <persName
+               </app> in every kind remembrance &amp; kinder wish to you &amp; <app><rdg wit="#digMitTeam">to</rdg><rdg wit="#LEst1870"/></app> <persName
                   ref="#Haydon_Mrs">Mrs Haydon</persName>. </p>
             <closer>
                <lb/>Ever most sincerely <app>
@@ -322,7 +309,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         unless it should really be likely to come out of which you shall have the
                         earliest notice. But of that there is very little chance. Once more God
                         bless you. We have just been drinking your health &amp; your dear <persName
-                           ref="#Haydon_Mrs">Mary</persName>'s. Again Good bye <pb n="4"/></rdg>
+                           ref="#Haydon_Mrs">Mary</persName>'s. Again Good bye <pb n="4"/></rdg><rdg wit="#LEst1870"/>
                   </app></p>
             </postscript>
 
