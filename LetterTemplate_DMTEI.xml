@@ -22,7 +22,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <author ref="#MRM">Mary Russell Mitford</author>
             <editor ref="#Id_who"><!--Editor on the Mitford project, referenced by id from Site Index. Editors, change to your name and id; students, leave as name of your instructor. --> </editor> 
             <sponsor><orgName>Mary Russell Mitford Society: Digital Mitford Project</orgName></sponsor>
-              <sponsor>University of Pittsburgh at Greensburg</sponsor>
+              <sponsor>Penn State Erie, the Behrend College</sponsor>
             <principal>Elisa Beshero-Bondar</principal> <!-- the lines above are standard. don't change -->
             <respStmt>
                <resp>Transcription and coding by</resp>
