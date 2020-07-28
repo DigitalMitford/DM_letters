@@ -222,7 +222,7 @@ Change to reflect photo file names for your letter (as you see her
                 <date when="1822-05-29"><!--Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.--></date>
              </bibl>
           </listBibl>
-           <listPlace>
+           <listPlace sortKey="histPlaces">
               <place xml:id="Verdun">
                  <placeName>Verdun, France</placeName>
                  <settlement>Verdun</settlement>
