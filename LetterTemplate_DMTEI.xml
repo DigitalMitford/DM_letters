@@ -31,7 +31,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <edition>First digital edition in TEI, date: <date when="yyyy-mm-dd"><!--enter the date on which you first created and saved this XML file in Box, and it can take any form; May 26, 2015 is fine, so long as you've used yyyy-mm-dd in the @when attribute--></date>. P5.</edition> 
+            <edition>First digital edition in TEI, date: <date when="yyyy-mm-dd"><!--enter the date on which you first created and saved this XML file in Box: use the yyyy-mm-dd format in the @when attribute. (The text inside the element can be in any form: May 26, 2015 is fine.)--></date>. P5.</edition> 
             <respStmt><resp>Edition made with help from photos taken by</resp><orgName>Digital Mitford editors</orgName></respStmt>
             <respStmt><orgName>Digital Mitford</orgName><resp> photo files: <idno><!-- For the text inside this element, idno, make a comma-separated list of each .jpg photo file name in your Box folder associated with your letter. It might look like this:
                DSCF9476.jpg, DSCF9477.jpg, DSCF9478.jpg, DSCF9479.jpg, DSCF9480.jpg, DSCF9481.jpg, DSCF9482.jpg, DSCF9483.jpg, DSCF9484.jpg, DSCF9485.jpg
