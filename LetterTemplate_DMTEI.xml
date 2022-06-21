@@ -77,12 +77,17 @@ Change to reflect photo file names for your letter (as you see her
                <physDesc>
                <objectDesc>
                   <supportDesc> <!-- Physical description of the letter goes here: paper size and condition, seal, postmarks, etc. See some posted examples in this Box folder but write yours to describe YOUR letter.-->
-                     <support> <p> <!--Text describing the document. Include information on the material, for example: One sheet of 18.5 mm x 42.3 mm <material>paper</material>, two surfaces photographed. Folded in half vertically and in thirds horizontally.
-                        So when Mitford writes over two sheets of paper on the front and back of each, we've photographed four surfaces. When she writes on one sheet front and back, we've photographed two surfaces. Work closely with the photos of your letter to determine the number of sheets and separate surfaces, and describe how they are folded: in thirds? There is likely to be more than one photo of the same surface.--> </p> 
+                     <support> <p> <!--Text describing the document. Include information on the material, for example: 
+                        One sheet of 18.5 mm x 42.3 mm <material>paper</material>, two surfaces photographed. Folded in half vertically and in thirds horizontally.
+                        So when Mitford writes over two sheets of paper on the front and back of each, we've photographed four surfaces. 
+                        When she writes on one sheet front and back, we've photographed two surfaces. 
+                        Work closely with the photos of your letter to determine the number of sheets and separate surfaces, and describe how they are folded: in thirds? 
+                        There is likely to be more than one photo of the same surface.--> </p> 
                         <p><!--Here, describe the address leaf and any postmarks and postal fees recorded on the paper. 
                            Refer to our slides on identifying and reading postmarks, here:  
                            1) whether it is missing: No postmarks.
-                           2) if present, does it have a postmark? Describe it, as in this example: Address leaf bearing black postmark, partially illegible, reading <stamp><lb/><placeName>READING</placeName><lb/></stamp>.-->
+                           2) if present, does it have a postmark? Describe it, as in this example: 
+                           Address leaf bearing black postmark, partially illegible, reading <stamp><lb/><placeName>READING</placeName><lb/></stamp>.-->
                            <!--FOR REFERENCE on HOW TO IDENTIFY AND READ POSTMARKS ON A MITFORD LETTER see our slides posted on our Wordpress blog: https://digitalmitford.wordpress.com/2014/05/27/the-digital-mitfords-guide-to-19th-century-british-postmarks-and-how-to-code-them-in-tei/ -->
                         </p> 
                         <!-- Continue to describe new postmarks here. Use a separate <p> for each, as below-->
@@ -117,7 +122,10 @@ Change to reflect photo file names for your letter (as you see her
         <handNotes><!--This section documents and identifies whenever we see additional hands, other than Mitford's, at work in the document. Those hands could be a contemporary (such as her mother), but they're more frequently marks made by later editors such as William Harness or Francis Needham. Use the <handNote> elements to describe the role of each hand in this manuscript. If the hand is, say, Mitford's mother's and is writing a page of the letter, you indicate when that happens in the body of the letter using the <handShift> element. The @corresp attributes on <handNote> point to xml:ids stored (or to be stored) in our Site Index.-->
            <handNote corresp="#Id_who"><!--Description of role in this mansuscript. All defined handnotes are listed in the SI.--></handNote>
            <!--Below are some SAMPLE HANDNOTES that appear commonly on MANY letters. Please be sure to CHANGE these if your letter differs.-->
-           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. <!-- Don't change the preceding two sentences if this letter has red crayon. In the *following* sentence, describe red crayoning on this letter. For example: A red line is drawn from top left to bottom right of each of the first three leaves. On leaf four, a red line is drawn from top left to bottom right across each of the two text blocks. There is no red crayon across the address text block.--></handNote>
+           <handNote corresp="#rc" medium="red_crayon"> Red crayon or thick red pencil. Probably a different hand from Mitford's that marks many of her letters, sometimes drawing diagonal lines across pages, and sometimes writing words overtop and perpendicularly across Mitford's writing. 
+              <!-- Don't change the preceding two sentences if this letter has red crayon. 
+                 In the *following* sentence, describe red crayoning on this letter. 
+                 For example: A red line is drawn from top left to bottom right of each of the first three leavess. On leaf four, a red line is drawn from top left to bottom right across each of the two text blocks. There is no red crayon across the address text block.--></handNote>
            <handNote corresp="#pencil" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks and numbered her letters now in the Reading Central Library's collection. <!-- Don't change the preceding sentence if this letter has grey pencil. Use only for RCL pencil. In the following sentence, describe penciled numbers or change/add whatever text you see written in pencil. For example: This letter is numbered "11" in the top left of the first leaf.-->
            </handNote>
            <handNote corresp="#pencilRy" medium="pencil"> Someone, apparently other than Mitford, perhaps cataloging letters and describing them, who left grey pencil marks on her letters now in the John Rylands Library's collection. <!-- Don't change the preceding sentence if this letter has grey pencil. Use only for JRL pencil. In the following sentence, describe penciled numbers or change/add whatever text you see written in pencil. For example: This letter is numbered "11" in the top right of the first leaf.-->
@@ -195,6 +203,13 @@ Change to reflect photo file names for your letter (as you see her
      <back>
         <div> <!-- In this section, place any NEW xml:id's generated by this letter (ie, id's not already included in our SI), then research and write entries for each. Under resp="", use your xml:id. NOTE: The <div> element must be present, nested inside <back>. -->
            <listPerson sortKey="histPersons">
+              <!--ebb: We're not listing every possible @sortKey value on the various "back list" elements,
+                 but these are fairly common values we work with.
+              You can look up the full set of lists and sortKey values here:
+              https://digitalmitford.github.io/DM_documentation/SI_sortKey_Guide.html 
+              For the full list of lists, try opening the current Digital Mitford site index in oXygen with "Open URL" and looking at the Outline view, or 
+              in the XPath window, enter //*[@sortKey] and click on the each of the results to view lots of example entries. 
+           -->
           <person xml:id="proposed_new_ID" sex="f"><!--Project sex codes are "m", "f", "o" for other, and "u" for unknown.-->
              <persName>
                 <surname><!--last name--></surname>
@@ -209,7 +224,7 @@ Change to reflect photo file names for your letter (as you see her
              <!--Other tags can go here: See Codebook for more details.-->
              <note resp="#Your_Editor_ID"><!--Biographical notes of interest. You don't need to tell the person's life story if they're already well-known, like Napoleon. But do indicate the person's significance in Mitford's world. More on this in the Site Index.--></note>
           </person>
-          <person xml:id="proposed_new_ID2"><!--Here's a minimal entry-->
+          <person xml:id="proposed_new_ID2"><!--Here's a minimal "stub" entry-->
              <persName>...</persName>
              <note resp="#Your_Editor_ID"><!--Some information here.--></note>
           </person>
@@ -224,7 +239,7 @@ Change to reflect photo file names for your letter (as you see her
               --></geo></location>
            </place>
         </listPlace>
-           <listBibl sortKey="work_MRM"><!--ebb: We've not listing every possible sortKey value but this is just to remind you to look up the appropriate sortKey for the list of entries you are updating. -->
+           <listBibl sortKey="work_MRM">
              <bibl xml:id="proposed_new_ID4">
                 <title><!--Title--></title>
                 <author><!--Author--></author>
@@ -234,7 +249,7 @@ Change to reflect photo file names for your letter (as you see her
                 <date when="yyyy"><!--Date. The @when attribute can be yyyy, yyyy-mm, or yyyy-mm-dd.--></date>
              </bibl>
           </listBibl>
-           <!--A few other kinds of lists apply. See Codebook and Site Index at http://digitalmitford.org/si.xml for guides.-->
+           http://digitalmitford.org/si.xml for guides.-->
      </div>
      </back>
   </text>
