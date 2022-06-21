@@ -224,7 +224,7 @@ Change to reflect photo file names for your letter (as you see her
               --></geo></location>
            </place>
         </listPlace>
-           <listBibl sortKey="literary"><!--ebb: We've not listing every possible sortKey value but this is just to remind you to look up the appropriate sortKey for the list of entries you are updating. -->
+           <listBibl sortKey="work_MRM"><!--ebb: We've not listing every possible sortKey value but this is just to remind you to look up the appropriate sortKey for the list of entries you are updating. -->
              <bibl xml:id="proposed_new_ID4">
                 <title><!--Title--></title>
                 <author><!--Author--></author>
